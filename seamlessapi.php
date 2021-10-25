@@ -11,10 +11,10 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #19A17A !important;" set-lan="text:4. Seamless API">4. Seamless API</b></h1>
+                <h1><b style="color: #0C3175 !important;" set-lan="text:4. Seamless API">4. Seamless API</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.1 Introduction Seamless API">4.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.1 Introduction Seamless API">4.1
                             Introduction Seamless API</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.2 Workflow">4.2 Workflow</b>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.2 Workflow">4.2 Workflow</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
@@ -45,7 +45,7 @@
 
 
                 <div class="col-12" id="tabThree">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.3 Setting">4.3 Setting</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.3 Setting">4.3 Setting</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -88,7 +88,7 @@
 
 
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.4 login request">4.4 Login
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.4 login request">4.4 Login
                             request</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -158,7 +158,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -174,7 +174,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -303,7 +303,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Response
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Response
                                             Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -325,7 +325,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:** Optional">** Optional for direct/re-direct link.</b></lable>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:** Optional">** Optional for direct/re-direct link.</b></lable>
                     </div>
                     <div class="form-group col-12">
                         <label
@@ -474,7 +474,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Game direct link</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Game direct link</b></lable>
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -682,7 +682,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Language</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Language</b></lable>
                     </div>
                     <div class="form-group col-12">
                         <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -757,7 +757,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Signout re-direct optional link:</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Signout re-direct optional link:</b></lable>
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -967,7 +967,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5 Call Back Service">4.5 Call Back
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5 Call Back Service">4.5 Call Back
                             Service</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -978,10 +978,10 @@
                             style="color: red;">ทั้งหมดไว้เป็นความลับ</b>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </label>
                 </div>
-                <lable><b style="color: #19A17A !important;"></b></lable>
+                <lable><b style="color: #0C3175 !important;"></b></lable>
                 <div class="pb-5"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.1 GetUserBalance">4.5.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.5.1
                             GetUserDetail</b>
                     </lable>
                 </div>
@@ -992,7 +992,7 @@
                                 เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
                     </div>
                     <div class="form-group col-12 ex">
-                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                            <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                             </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1037,7 +1037,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -1055,7 +1055,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Response Body</b>
+                            <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Response Body</b>
                             </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1113,7 +1113,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                            <lable><b style="color: #19A17A !important;" set-lan="text:Request Code">Response Code</b>
+                            <lable><b style="color: #0C3175 !important;" set-lan="text:Request Code">Response Code</b>
                             </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1148,7 +1148,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -1864,7 +1864,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabSixs" style="margin-left: 10px;">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.1 GetUserBalance">4.5.2
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.5.2
                             GetUserBalance</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1875,7 +1875,7 @@
                             เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ AMB Lotto ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -1926,7 +1926,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -1945,7 +1945,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -1976,7 +1976,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2010,7 +2010,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -2028,7 +2028,7 @@
 
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:4.5.2 UserPlaceBet">4.5.3
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.2 UserPlaceBet">4.5.3
                             UserPlaceBet</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -2039,7 +2039,7 @@
                             เมื่อผู้เล่นวางเดิมพัน ระบบ AMB Lotto จะส่งคำขอ UserPlaceBet ไปยังระบบของคู่ธุรกิจ คำขอจะหมดเวลาหลังจาก 10 วินาทีและจะส่ง PlaceBetCancel</label>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -2197,7 +2197,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -2240,7 +2240,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2266,7 +2266,7 @@
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2328,7 +2328,7 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -2345,7 +2345,7 @@
 
 
                 <div class="col-12" id="tabEight">
-                    <lable><b style="color: #19A17A !important;">4.5.4 UserPlaceBetCancel</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.5.4 UserPlaceBetCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2361,7 +2361,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 </label>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -2517,7 +2517,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -2575,7 +2575,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2601,7 +2601,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2639,7 +2639,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -2656,7 +2656,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tabNine">
-                    <lable><b style="color: #19A17A !important;">4.5.5 UserPlacePayout</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.5.5 UserPlacePayout</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2666,7 +2666,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             ถ้ามีการออกผลรางวัล ระบบ AMB Lotto จะส่งคำขอ UserPlacePayout เมื่อมีการออกผลรางวัล</label>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -2842,7 +2842,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -2908,7 +2908,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2934,7 +2934,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -2968,7 +2968,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -2985,7 +2985,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tab15">
-                    <lable><b style="color: #19A17A !important;">4.5.6 UserPlaceReToRunning</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.5.6 UserPlaceReToRunning</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -2997,7 +2997,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             be sent.</label>
                     </div> -->
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3153,7 +3153,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -3196,7 +3196,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3222,7 +3222,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3261,7 +3261,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -3278,7 +3278,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tab16">
-                    <lable><b style="color: #19A17A !important;">4.5.7 UserPayReward</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.5.7 UserPayReward</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3290,7 +3290,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                             PlaceBetCancel will be sent.</label>
                     </div> -->
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3386,7 +3386,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -3414,7 +3414,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3443,7 +3443,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3477,7 +3477,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -3494,12 +3494,12 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tabTen">
-                    <lable><b style="color: #19A17A !important;">4.5.8 UserPayRewardCancel</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.5.8 UserPayRewardCancel</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Request Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Request Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3594,7 +3594,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -3622,7 +3622,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3651,7 +3651,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -3685,7 +3685,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -3701,10 +3701,10 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                 <div class="pb-5"></div>
 
 
-                <lable id="tabEleven"><b style="color: #19A17A !important;">4.6 Optional API</b></lable>
+                <lable id="tabEleven"><b style="color: #0C3175 !important;">4.6 Optional API</b></lable>
                 <div class="pb-4"></div>
                 <div class="col-12" id="tabFourteen">
-                    <lable><b style="color: #19A17A !important;">4.6.1 memberBetHistories</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.6.1 memberBetHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -3727,7 +3727,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -3787,7 +3787,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -3807,7 +3807,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4034,7 +4034,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4117,7 +4117,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -4183,7 +4183,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tabTwelve">
-                    <lable><b style="color: #19A17A !important;">4.6.2 betHistories</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.6.2 betHistories</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -4210,7 +4210,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -4265,7 +4265,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -4284,7 +4284,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Bet Position</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Bet Position</b></lable>
                     </div> -->
                     <!-- <div class="form-group col-1"></div> -->
                     <!-- <div class="form-group col-9">
@@ -4316,7 +4316,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div> -->
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4542,7 +4542,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4618,7 +4618,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <!-- <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Calculation Description</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Calculation Description</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4652,7 +4652,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
@@ -4718,7 +4718,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
 
 
                 <div class="col-12" id="tabThirteen">
-                    <lable><b style="color: #19A17A !important;">4.6.3 GetListBetResult</b></lable>
+                    <lable><b style="color: #0C3175 !important;">4.6.3 GetListBetResult</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -4745,7 +4745,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;" set-lan="text:Request Body">Request Body</b>
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                         </lable>
                     </div>
                     <div class="form-group col-1"></div>
@@ -4795,7 +4795,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;"
+                                    <lable class="Point"><b style="color: #0C3175 !important;"
                                             set-lan="text:Example Request Body">Example Request Body</b><i
                                             class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
@@ -4813,7 +4813,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Response Body</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4870,7 +4870,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         </div>
                     </div>
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #19A17A !important;">Service Response Code</b></lable>
+                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
                     </div>
                     <div class="form-group col-1"></div>
                     <div class="form-group col-9">
@@ -4924,7 +4924,7 @@ Status ของตั๋วจะเป็นสถานะของตั๋�
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #19A17A !important;">Example Service
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
                                             Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true"
                                             style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>

@@ -10142,11 +10142,11 @@ a.close.disabled {
 }
 
 .yellow {
-    background-color: #19A17A !important;
+    background-color: #0C3175 !important;
 }
 
 .yellow-text {
-    color: #19A17A !important;
+    color: #0C3175 !important;
 }
 
 .rgba-yellow-slight, .rgba-yellow-slight:after {
@@ -37052,7 +37052,7 @@ h6 {
     }
 
 .btn-yellow {
-    background-color: #19A17A !important;
+    background-color: #0C3175 !important;
     color: #fff;
 }
 

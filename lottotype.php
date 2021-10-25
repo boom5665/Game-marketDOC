@@ -11,10 +11,10 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #19A17A !important;" set-lan="text:3. Seamless API">3. Lotto Type</b></h1>
+                <h1><b style="color: #0C3175 !important;" set-lan="text:3. Seamless API">3. Lotto Type</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.1 Introduction Seamless API">3.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.1 Introduction Seamless API">3.1
                     Key Type</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -255,7 +255,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #19A17A !important;" set-lan="text:3.2 Workflow">3.2 Key Sub Type</b>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.2 Workflow">3.2 Key Sub Type</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>

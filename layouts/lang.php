@@ -1,5 +1,5 @@
 <!-- <div class="row" style="float: right; padding-right: 10px;">
-    <a id="txtLan" style="color: #19A17A !important;">
+    <a id="txtLan" style="color: #0C3175 !important;">
         <img src="./API_files/usa.png" style="width: 20px; margin-right: .4rem;">English
     </a>
     <div id="divblock" style="display: none;">
