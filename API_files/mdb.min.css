@@ -36332,7 +36332,7 @@ a {
 }
 
 .rgba-green-slight {
-    background-color: #043E35;
+    background-color: #103e93;
 }
 
 .border-table {
@@ -36640,7 +36640,7 @@ body.opened-menu .navbar {
     /*width: 280px;*/
     width: 306px;
     height: 80px;
-    background: #043E35;
+    background: #0C3175;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36695,7 +36695,7 @@ body.opened-menu .navbar {
 }
 
 #slide-out #toggle {
-    background: #043E35;
+    background: #092049;
     text-align: right;
     position: absolute;
     bottom: 0;
@@ -36828,7 +36828,7 @@ body.opened-menu .navbar {
 }
 
 .side-nav.side-nav-light .collapsible li .collapsible-header.active {
-    color: #043E35;
+    color: #0C3175;
     font-weight: 700;
 }
 
@@ -36837,7 +36837,7 @@ body.opened-menu .navbar {
 }
 
 .side-nav.side-nav-light .collapsible a {
-    color: #043E35;
+    color: #0C3175;
 }
 
 .side-nav .collapsible {

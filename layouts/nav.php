@@ -8,8 +8,7 @@
         <div class="navbar-panel-box" style="display: none;">
             <div class="navbar-panel d-flex justify-content-between" style="background-color: #043E35;">
             </div>
-            <div class="promo-panel d-flex justify-content-between yellow"
-                style="background-color: #043E35 !important;"></div>
+            <div class="promo-panel d-flex justify-content-between yellow" style="background-color: #043E35 !important;"></div>
         </div>
     </nav>
 
@@ -21,15 +20,13 @@
                 <ul class="accordion collapsible collapsible-accordion">
                     <li id="manu1">
                         <a href="index.php" class="collapsible-header waves-effect">
-                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span
-                                set-lan="text:1. Introduction">1. Introduction</span></a>
+                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:1. Introduction">1. Introduction</span></a>
                     </li>
                     <li id="manu2">
                         <a href="version.php" class="collapsible-header waves-effect">
-                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span
-                                set-lan="text:2. Version">2. Version</span></a>
+                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:2. Version">2. Version</span></a>
                     </li>
-                    <li id="manu3">
+                    <!-- <li id="manu3">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
                                 set-lan="text:3. Seamless API">3. Lotto Type</span><i
@@ -47,7 +44,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
                     <!-- <li id="manu3">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
@@ -123,87 +120,85 @@
                     </li> -->
                     <li id="manu4">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
-                                set-lan="text:4. Transferwallet Api">4. Seamless API</span><i
-                                class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span set-lan="text:4. Transferwallet Api">3. Seamless API</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
                                 <li id="manu41"><a class="waves-effect submenu" href="seamlessapi.php#tabOne">
-                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">4.1
+                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.1
                                             Introduction
                                             Seamless API</span></a>
                                 </li>
                                 <li id="manu42"><a class="waves-effect submenu" href="seamlessapi.php#tabTwo">
-                                        <span class="sv-normal" set-lan="text:3.2 Workflow">4.2
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.2
                                             Workflow</span></a>
                                 </li>
                                 <li id="manu43"><a class="waves-effect submenu" href="seamlessapi.php#tabThree">
-                                        <span class="sv-normal" set-lan="text:3.3 Setting">4.3
+                                        <span class="sv-normal" set-lan="text:3.3 Setting">3.3
                                             Setting</span></a>
                                 </li>
                                 <li id="manu44"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:3.4 login request">4.4 login
+                                        <span class="sv-normal" set-lan="text:3.4 login request">3.4 login
                                             request</span></a>
                                 </li>
                                 <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
-                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">4.5
+                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">3.5
                                             Call Back Service</span></a>
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">4.5.1
+                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">3.5.1
                                             GetUserDetail</span></a>
                                 </li>
                                 <li id="manu452"><a class="waves-effect submenu" href="seamlessapi.php#tabSixs">
-                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">4.5.2
+                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">3.5.2
                                             GetUserBalance</span></a>
                                 </li>
                                 <li id="manu453"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
-                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">4.5.3
+                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">3.5.3
                                             UserPlaceBet</span></a>
                                 </li>
                                 <li id="manu454"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">
-                                        <span class="sv-normal" set-lan="text:3.5.3">4.5.4
+                                        <span class="sv-normal" set-lan="text:3.5.3">3.5.4
                                             UserPlaceBetCancel</span></a>
                                 </li>
                                 <li id="manu455"><a class="waves-effect submenu" href="seamlessapi.php#tabNine">
-                                        <span class="sv-normal" set-lan="text:3.5.4">4.5.5
+                                        <span class="sv-normal" set-lan="text:3.5.4">3.5.5
                                             UserPlacePayout</span></a>
                                 </li>
                                 <li id="manu456"><a class="waves-effect submenu" href="seamlessapi.php#tab15">
-                                        <span class="sv-normal">4.5.6 UserPlaceReToRunning</span></a>
+                                        <span class="sv-normal">3.5.6 UserPlaceReToRunning</span></a>
                                 </li>
                                 <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
-                                        <span class="sv-normal">4.5.7 UserPayReward</span></a>
+                                        <span class="sv-normal">3.5.7 UserPayReward</span></a>
                                 </li>
                                 <li id="manu458"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
-                                        <span class="sv-normal">4.5.8 UserPayRewardCancel</span></a>
+                                        <span class="sv-normal">3.5.8 UserPayRewardCancel</span></a>
                                 </li>
                                 <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
-                                        <span class="sv-normal" set-lan="text:3.6">4.6 Optional
+                                        <span class="sv-normal" set-lan="text:3.6">3.6 Optional
                                             API</span></a>
                                 </li>
                                 <li id="manu461"><a class="waves-effect submenu" href="seamlessapi.php#tabFourteen">
-                                        <span class="sv-normal" set-lan="text:3.6.1">4.6.1
+                                        <span class="sv-normal" set-lan="text:3.6.1">3.6.1
                                             memberBetHistories</span></a>
                                 </li>
                                 <li id="manu462"><a class="waves-effect submenu" href="seamlessapi.php#tabTwelve">
-                                        <span class="sv-normal" set-lan="text:3.6.2">4.6.2
+                                        <span class="sv-normal" set-lan="text:3.6.2">3.6.2
                                             betHistories</span></a>
                                 </li>
                                 <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
-                                        <span class="sv-normal" set-lan="text:3.6.3">4.6.3
-                                        GetListBetResult</span></a>
+                                        <span class="sv-normal" set-lan="text:3.6.3">3.6.3
+                                            GetListBetResult</span></a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li id="manu5">
-                        <a class="collapsible-header waves-effect arrow-r">
+                    <!-- <li id="manu5"> -->
+                        <!-- <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Transferwallet API</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
-                        <div class="collapsible-body"> 
-                        <ul>
+                        <div class="collapsible-body">
+                            <ul>
                                 <li id="manu51"><a class="waves-effect submenu" href="transferwallet.php#tab1">
                                         <span class="sv-normal" set-lan="text:4.1 Introduction Transferwallet API">5.1
                                             Introduction Transferwallet API</span></a>
@@ -238,7 +233,7 @@
                                         <span class="sv-normal" set-lan="html:4.9">5.9
                                             betHistories</span></a>
                                 </li>
-                         
+
                                 <li id="manu510"><a class="waves-effect submenu" href="transferwallet.php#tab10">
                                         <span class="sv-normal" set-lan="html:4.10">5.10
                                             depositWithdrawHistory</span></a>
@@ -251,7 +246,7 @@
                                         <span class="sv-normal" set-lan="html:4.12">5.12
                                             GetListBetResult</span></a>
                                 </li>
-                            </ul>
+                            </ul> -->
 
                             <!-- <ul>
                                 <li id="manu81"><a class="waves-effect submenu" href="responsecode.php#tabOne">
@@ -276,17 +271,17 @@
                                         <span class="sv-normal">5.7 Service Respone</span></a>
                                 </li>
                             </ul> -->
-                        </div>
-                    </li>
+                        <!-- </div>
+                    </li> -->
 
                     <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">6. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">4. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
                                 <li id="manu61"><a class="waves-effect submenu" href="responsecode.php#tabOne">
-                                        <span class="sv-normal">6.1 Member Authen</span></a>
+                                        <span class="sv-normal">4.1 Member Authen</span></a>
                                 </li>
                                 <!-- <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
                                         <span class="sv-normal">6.2 Token</span></a>
@@ -304,7 +299,7 @@
                                         <span class="sv-normal">6.6 Seamless API</span></a>
                                 </li> -->
                                 <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
-                                        <span class="sv-normal">6.2 Service Respone</span></a>
+                                        <span class="sv-normal">4.2 Service Respone</span></a>
                                 </li>
                             </ul>
                             <!-- <ul id="sub_currency">
