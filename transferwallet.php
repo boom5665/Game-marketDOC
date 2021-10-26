@@ -909,7 +909,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from AMB Lotto system</td>
+                                        <td>Player username from Game-market system</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -924,12 +924,12 @@
                                     <tr>
                                         <td class="bRight">uriDesktop</td>
                                         <td class="bRight">String</td>
-                                        <td>AMB Lotto link but don't show web header</td>
+                                        <td>Game-market link but don't show web header</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">urlFullPage</td>
                                         <td class="bRight">String</td>
-                                        <td>AMB Lotto link fullpage</td>
+                                        <td>Game-market link fullpage</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1024,7 +1024,7 @@
                         <lable><b style="color: #cfa137 !important;" set-lan="text:** Optional">** Optional for direct/re-direct link.</b></lable>
                     </div>
                     <div class="form-group col-12">
-                        <label set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; คุณสามารถเพิ่มค่าพารามิเตอร์ต่อท้ายในลิงค์ (&lottotype=) เพื่อเปลี่ยนเส้นทางให้ผู้เล่นไปยังหน้าแทง AMB Lotto ประเภทนั้นๆ</label>
+                        <label set-lan="html:You can add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; คุณสามารถเพิ่มค่าพารามิเตอร์ต่อท้ายในลิงค์ (&lottotype=) เพื่อเปลี่ยนเส้นทางให้ผู้เล่นไปยังหน้าแทง Game-market ประเภทนั้นๆ</label>
                     </div>
                     <!-- <div class="col-8">
                 <a href="../img/zip/game_icons.rar" style="float: right;" class="Point" download=""><i class="fa fa-download" aria-hidden="true"></i>
@@ -1168,7 +1168,7 @@
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12 ex">
-                        <lable><b style="color: #cfa137 !important;">AMB Lotto direct link</b></lable>
+                        <lable><b style="color: #cfa137 !important;">Game-market direct link</b></lable>
                     </div>
                 </div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -1860,7 +1860,7 @@
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
 
-                                        <td>Reference id Unique from AMB Lotto system.</td>
+                                        <td>Reference id Unique from Game-market system.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -2142,7 +2142,7 @@
                                         <td class="bRight">ref</td>
                                         <td class="bRight">String</td>
 
-                                        <td>Reference id Unique from AMB Lotto system.</td>
+                                        <td>Reference id Unique from Game-market system.</td>
                                     </tr>
                                 </tbody>
                             </table>
