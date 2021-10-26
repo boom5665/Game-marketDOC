@@ -17,6 +17,7 @@
 </div> -->
 
 <div class="row">
-<!-- <div class="row" style="margin-top: 40px;"> -->
-    <img id="blah" class="center" src="./API_files/Banner3.jpg">
+    <!-- <div class="row" style="margin-top: 40px;"> -->
+    <img id="blah" style="border-radius: 10px; margin: 0px 9px;
+    width: 98%;" class="center" src="./API_files/Banner3.jpg">
 </div>
