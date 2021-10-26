@@ -1323,11 +1323,11 @@
                                 Url :
                             </label>
                             <label>
-                                https://api/v1/autologin/token/022ad66bd6fbc18571dba30310352407
+                                
+https://test-api.gamemarket.shop/api/v1/autologin/token/022ad66bd6fbc18571dba30310352407
+                            
                             </label>
-                            <label>
-                                /hk9MjeMDS0iniiZ0h1jzP)te/MRTZ7CtmJepf3(Vygjqydm)#2
-                            </label>
+
                         </div>
                         <div class="col-12">
                             <label class="txtHead">
