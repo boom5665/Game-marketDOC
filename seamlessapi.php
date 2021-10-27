@@ -114,7 +114,7 @@
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        3.5.2 คัดลอก ITEM Key เพื่อนำไปใช้ต่อ API </label>
+                            3.5.2 คัดลอก ITEM Key เพื่อนำไปใช้ต่อ API </label>
                         <div class="col-12">
                             <img src="./API_files/3.5.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
@@ -168,7 +168,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
+                                    <tr>
                                         <td class="bRight">code</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Result Code Reference.</td>
@@ -1339,15 +1339,18 @@
                     <div class="form-group col-12">
                         <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             วิธีการดึง Token และวิธีการใช้งาน</label>
-                            <div class="koh-tab-content col-12">
-                        <div class="koh-tab-content-body">
-                            <div class="koh-faq form-group">
-                                <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Auto login GET Token</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                </div>
-                                <div class="koh-faq-answer col-9">
-                                    <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"$user"</span>= <span class="hljs-string">"BoOm"</span>, *นำชือมาทำเป็นตัวแปล user
+                            <div class="col-12">
+                            <img src="./API_files/md5.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                        </div>
+                        <div class="koh-tab-content col-12">
+                            <div class="koh-tab-content-body">
+                                <div class="koh-faq form-group">
+                                    <div class="koh-faq-question form-group ex">
+                                        <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Auto login GET Token To md5</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    </div>
+                                    <div class="koh-faq-answer col-9">
+
+                                        <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"$user_new"</span>= <span class="hljs-number">strtolower($user);</span>, *การแสดงผลของ user ต้องเป็นตัวเล็กเท่านั้นจีงต้องใช้ strtolower
     <span class="hljs-attr">"$str"</span>= <span class="hljs-number">"{{GameAccessKey}}:{{GameSecretKey}}:".$user_new;</span>,*ต้องนำ Access Key และ Secret Key จากข้อ 3.4 มารวมเป็นตัวแปล str
     <span class="hljs-attr">"$md5"</span>= <span class="hljs-number">md5($str);</span>, นำตัวแปล str มาใช้ดึงรหัส token 
@@ -1357,10 +1360,10 @@
 https://test.com/api/v1/autologin/token/b29fe908cc528df4bffb14bc31f793db/{{GameAccessKey}}/{{GameSecretKey}}
 
 }</code></pre>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
