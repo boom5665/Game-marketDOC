@@ -137,19 +137,26 @@
                                         <span class="sv-normal" set-lan="text:3.3 Setting">3.3
                                             Setting</span></a>
                                 </li>
-                                <li id="manu44"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">3.4 Check Member Verify</span></a>
+                                <li id="manu35"><a class="waves-effect submenu" href="seamlessapi.php#tab35">
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">3.4 Get Access Key and Secret Key</span></a>
                                 </li>
+                                <li id="manu36"><a class="waves-effect submenu" href="seamlessapi.php#tab36">
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">3.5 Get ITEM Key</span></a>
+                                </li>
+                                <li id="manu44"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">3.6 Check Member Verify</span></a>
+                                </li>
+
                                 <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
-                                        <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">3.5
+                                        <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">3.7
                                             Send Otp Virify</span></a>
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.6
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.8
                                         Dropitem</span></a>
                                 </li>
                                 <li id="manu453"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
-                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">3.7
+                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">3.9
                                         Auto Login</span></a>
                                 </li>
                                 <!-- <li id="manu454"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">

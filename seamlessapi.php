@@ -62,62 +62,67 @@
                             <img src="./API_files/Account002.png" style="width: 30%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
-                        <label id="tabZero" set-lan="html:3. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.เพื่อดึงget Access Key and Secret Key  </label>
                         <div class="col-12">
-                            <label set-lan="html:3 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                3.1 คลิกที่ปุ่มView เพื่อแสดง API KEY</label>
+                            <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                2.1 เพื่อดึงGet ITEM Key </label>
                         </div>
                         <div class="col-12">
-                            <img src="./API_files/3.png" style="width: 80%; margin-left: 10%;">
+                            <img src="./API_files/2.1.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <div class="col-12">
                             <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                3.2 Coppy Access Key and Secret Key  </label>
+                                2.2 คลิกหน้า ITEM </label>
                         </div>
                         <div class="col-12">
-                            <img src="./API_files/3.2.png" style="width: 80%; margin-left: 10%;">
-                        </div>
-                        <div class="pb-5"></div>
-                        <label id="tabZero" set-lan="html:3. Define">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.เพื่อดึง Get ITEM Key</label>
-                        <div class="col-12">
-                            <label set-lan="html:3 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.1  คลิกที่หน้าไอเทมเพื่อเพิ่ม ITEM ที่ต้องการ Drop จากเกม</label>
-                        </div>
-                        <div class="col-12">
-                            <img src="./API_files/4.png" style="width: 80%; margin-left: 10%;">
-                        </div>
-                        <div class="pb-5"></div>
-                        <div class="col-12">
-                            <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.2 คลิกหน้าitem   </label>
-                        </div>
-                        <div class="col-12">
-                            <img src="./API_files/4.2.png" style="width: 80%; margin-left: 10%;">
-                        </div>
-                        <div class="pb-5"></div>
-                        <div class="col-12">
-                            <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.3 คลิกที่ปุ่มView เพื่อแสดง API KEY   </label>
-                        </div>
-                        <div class="col-12">
-                            <img src="./API_files/4.3.png" style="width: 80%; margin-left: 10%;">
-                        </div>
-                        <div class="pb-5"></div>
-                        <div class="col-12">
-                            <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                4.4 Cppy ITEM Key เพื่อนำไปใช้ต่อ API   </label>
-                        </div>
-                        <div class="col-12">
-                            <img src="./API_files/4.4.png" style="width: 80%; margin-left: 10%;">
+                            <img src="./API_files/2.2.png" style="width: 80%; margin-left: 10%;">
                         </div>
                     </div>
                 </div>
                 <div class="pb-5"></div>
 
+                <div class="col-12" id="tab35">
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.4 tab35">3.4 Get Access Key and Secret Key</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12">
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 คลิกที่ปุ่มView เพื่อแสดง APi KEY</label>
+                        <div class="col-12">
+                            <img src="./API_files/3.4.1.png" style="width: 90%; margin-left: 10%;">
+                        </div>
+                        <div class="pb-5"></div>
+                        <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            3.4.2 คัดลอก Access Key And Secret Key </label>
+                        <div class="col-12">
+                            <img src="./API_files/3.4.2.png" style="width: 90%; margin-left: 10%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
 
+                <div class="col-12" id="tab36">
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5 tab36">3.5 Get ITEM Key</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="form-group col-12">
+
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 คลิกที่ปุ่ม View เพื่อแสดง API KEY</label>
+                        <div class="col-12">
+                            <img src="./API_files/3.5.1.png" style="width: 90%; margin-left: 10%;">
+                        </div>
+                        <div class="pb-5"></div>
+                        <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        3.5.2 คัดลอก ITEM Key เพื่อนำไปใช้ต่อ API </label>
+                        <div class="col-12">
+                            <img src="./API_files/3.5.2.png" style="width: 90%; margin-left: 10%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5"></div>
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.4 Check Member Verify">3.4 Check Member Verify</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.6 Check Member Verify">3.6 Check Member Verify</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -132,7 +137,7 @@
                             </label>
                             <label>
 
-                                https://api/v1/gameacc/check
+                                https://test-api.gamemarket.shop/api/v1/gameacc/check
                             </label>
                         </div>
                         <div class="col-12">
@@ -163,21 +168,16 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td class="bRight">agentUsername</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight">Agent account , Account length is restricted to 36 chars at most.</td>
+                                <tr>
+                                        <td class="bRight">code</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Result Code Reference.</td>
                                     </tr>
-                                    <tr>
-                                        <td class="bRight">agentApiKey</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight">System generate key ID after crate Agent</td>
-                                    </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Player username from partner system.</td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
@@ -226,7 +226,7 @@
                                         <td class="bRight">String</td>
                                         <td class="bRight">Information message.</td>
                                     </tr>
-                                 
+
                                 </tbody>
                             </table>
                         </div>
@@ -929,7 +929,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5 Send Otp Virify">3.5 Send Otp Virify</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.7 Send Otp Virify">3.7 Send Otp Virify</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="divBox">
@@ -943,7 +943,7 @@
                         </label>
                         <label>
 
-                            https://api/v1/otp/send-request
+                            https://test-api.gamemarket.shop/api/v1/otp/send-request
                         </label>
                     </div>
                     <div class="col-12">
@@ -989,11 +989,11 @@
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Result Code Reference.</td>
                                     </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Information message.</td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
@@ -1038,11 +1038,11 @@
                                         <td class="bRight">Number</td>
                                         <td>Result Code Reference.</td>
                                     </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
                                         <td>Object response.</td>
-                                    </tr>
+                                    </tr> -->
 
                                 </tbody>
                             </table>
@@ -1124,7 +1124,7 @@
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.6
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.8
                             dropitem</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1140,7 +1140,7 @@
                             </label>
                             <label>
 
-                                https://api/v1/gamestore/dropitem
+                                https://test-api.gamemarket.shop/api/v1/gamestore/dropitem
                             </label>
                         </div>
                         <div class="col-12">
@@ -1180,11 +1180,11 @@
                                         <td class="bRight">Number</td>
                                         <td>Result Code Reference.</td>
                                     </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="bRight">data</td>
                                         <td class="bRight">Object</td>
                                         <td>Object response.</td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
@@ -1231,11 +1231,11 @@
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Result Code Reference.</td>
                                     </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="bRight">balance</td>
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Total balance.</td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
@@ -1308,7 +1308,7 @@
 
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">3.7
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">3.9
                             Auto Login</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1323,11 +1323,9 @@
                                 Url :
                             </label>
                             <label>
-                                
-https://test-api.gamemarket.shop/api/v1/autologin/token/022ad66bd6fbc18571dba30310352407
-                            
+                                https://test-api.gamemarket.shop/api/v1/autologin/token/
+                                022ad66bd6fbc18571dba30310352407/hk9MjeMDS0iniiZ0h1jzP)te/MRTZ7CtmJepf3(Vygjqydm)#2
                             </label>
-
                         </div>
                         <div class="col-12">
                             <label class="txtHead">
@@ -1340,7 +1338,29 @@ https://test-api.gamemarket.shop/api/v1/autologin/token/022ad66bd6fbc18571dba303
                     </div>
                     <div class="form-group col-12">
                         <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            เมื่อผู้เล่นวางเดิมพัน ระบบ Game-market จะส่งคำขอ UserPlaceBet ไปยังระบบของคู่ธุรกิจ คำขอจะหมดเวลาหลังจาก 10 วินาทีและจะส่ง PlaceBetCancel</label>
+                            วิธีการดึง Token และวิธีการใช้งาน</label>
+                            <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Auto login GET Token</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"$user"</span>= <span class="hljs-string">"BoOm"</span>, *นำชือมาทำเป็นตัวแปล user
+    <span class="hljs-attr">"$user_new"</span>= <span class="hljs-number">strtolower($user);</span>, *การแสดงผลของ user ต้องเป็นตัวเล็กเท่านั้นจีงต้องใช้ strtolower
+    <span class="hljs-attr">"$str"</span>= <span class="hljs-number">"{{GameAccessKey}}:{{GameSecretKey}}:".$user_new;</span>,*ต้องนำ Access Key และ Secret Key จากข้อ 3.4 มารวมเป็นตัวแปล str
+    <span class="hljs-attr">"$md5"</span>= <span class="hljs-number">md5($str);</span>, นำตัวแปล str มาใช้ดึงรหัส token 
+    <span class="hljs-attr">"echo"</span> <span class="hljs-number">"{{url}}/api/v1/autologin/token/".$md5."/xxdfsdfsfdfsfd/fghfghfghfhg";</span> *และทำการประกาศตัวแปลทั้งหมด 
+
+*ผลลัพท์ที่ได้
+https://test.com/api/v1/autologin/token/b29fe908cc528df4bffb14bc31f793db/{{GameAccessKey}}/{{GameSecretKey}}
+
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
@@ -1371,7 +1391,7 @@ https://test-api.gamemarket.shop/api/v1/autologin/token/022ad66bd6fbc18571dba303
                                         <td class="bRight">Object</td>
                                         <td class="bRight">Object response.</td>
                                     </tr>
-                                 
+
                                 </tbody>
                             </table>
                         </div>
@@ -1472,7 +1492,7 @@ https://test-api.gamemarket.shop/api/v1/autologin/token/022ad66bd6fbc18571dba303
                 <div class="pb-5"></div>
 
 
-               
+
 
 
                 <div class="btn-toolbar mb-12">
