@@ -21,7 +21,7 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:3.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Seamless เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก</label>
+                            ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Seamless </label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
@@ -64,7 +64,7 @@
                         <div class="pb-5"></div>
                         <div class="col-12">
                             <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                2.1 เพื่อดึงGet ITEM Key </label>
+                                2.1 สร้าง ITEM Game เตรียมไว้สำหรับ Drop ITEM ให้ User </label>
                         </div>
                         <div class="col-12">
                             <img src="./API_files/2.1.png" style="width: 80%; margin-left: 10%;">
@@ -72,7 +72,7 @@
                         <div class="pb-5"></div>
                         <div class="col-12">
                             <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                2.2 คลิกหน้า ITEM </label>
+                                2.2 ตัวอย่าง List ITEM </label>
                         </div>
                         <div class="col-12">
                             <img src="./API_files/2.2.png" style="width: 80%; margin-left: 10%;">
@@ -87,7 +87,7 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 คลิกที่ปุ่มView เพื่อแสดง APi KEY</label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 ที่หน้า Game คลิกที่ปุ่มView เพื่อแสดง APi KEY</label>
                         <div class="col-12">
                             <img src="./API_files/3.4.1.png" style="width: 90%; margin-left: 10%;">
                         </div>
@@ -108,7 +108,7 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
 
-                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 คลิกที่ปุ่ม View เพื่อแสดง API KEY</label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 ที่หน้า ITEM คลิกที่ปุ่ม View เพื่อแสดง API KEY</label>
                         <div class="col-12">
                             <img src="./API_files/3.5.1.png" style="width: 90%; margin-left: 10%;">
                         </div>
@@ -979,7 +979,7 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ส่ง massage otp</label>
+                            ส่ง massage otp เพื่อยืนยันเบอร์โทรศัพท์</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
@@ -1452,11 +1452,11 @@
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>
-                    <div class="col-md-6" style="text-align: right;">
+                    <!-- <div class="col-md-6" style="text-align: right;">
                         <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
                             <lan set-lan="html:Next">Next</lan>
                         </button>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- </div> -->
 
