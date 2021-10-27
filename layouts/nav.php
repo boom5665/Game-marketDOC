@@ -151,13 +151,13 @@
                                         <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">3.7
                                             Send Otp Virify</span></a>
                                 </li>
-                                <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.8
-                                        Dropitem</span></a>
-                                </li>
                                 <li id="manu453"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
-                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">3.9
+                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">3.8
                                         Auto Login</span></a>
+                                </li>
+                                <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.9
+                                        Dropitem</span></a>
                                 </li>
                                 <!-- <li id="manu454"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">
                                         <span class="sv-normal" set-lan="text:3.5.3">3.5.4
@@ -276,7 +276,7 @@
                         <!-- </div>
                     </li> -->
 
-                    <li id="manu6">
+                    <!-- <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">4. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
@@ -285,7 +285,7 @@
                                 <li id="manu61"><a class="waves-effect submenu" href="responsecode.php#tabOne">
                                         <span class="sv-normal">4.1 Member Authen</span></a>
                                 </li>
-                                <!-- <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
+                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
                                         <span class="sv-normal">6.2 Token</span></a>
                                 </li>
                                 <li id="manu63"><a class="waves-effect submenu" href="responsecode.php#tabThree">
@@ -299,12 +299,12 @@
                                 </li>
                                 <li id="manu66"><a class="waves-effect submenu" href="responsecode.php#tabSix">
                                         <span class="sv-normal">6.6 Seamless API</span></a>
-                                </li> -->
+                                </li>
                                 <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
                                         <span class="sv-normal">4.2 Service Respone</span></a>
                                 </li>
                             </ul>
-                            <!-- <ul id="sub_currency">
+                            <ul id="sub_currency">
                                 <li id="manu51"><a class="waves-effect submenu"
                                         href="currency.php#tab1"><span
                                             class="sv-normal" set-lan="html:6.1">6.1 Currency</span></a></li>
@@ -371,9 +371,9 @@
                                         href="currency.php#tab18"><span
                                             class="sv-normal" set-lan="html:6.18">6.18 KRW - South Korean won</span></a>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </div>
-                    </li>
+                    </li> -->
                     <!-- <li id="manu6">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:6">7. Game Detail</span><i

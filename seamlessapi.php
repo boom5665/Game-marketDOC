@@ -173,11 +173,21 @@
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Result Code Reference.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">playerUsername</td>
+                                    <tr>
+                                        <td class="bRight">secret_key</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player username from partner system.</td>
-                                    </tr> -->
+                                        <td class="bRight">Secret key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">access_key</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Access key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">track_user</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Name Accout User</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -222,6 +232,11 @@
                                         <td class="bRight">Result Code Reference.</td>
                                     </tr>
                                     <tr>
+                                        <td class="bRight">has_acc</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Result Code Reference.</td>
+                                    </tr>
+                                    <tr>
                                         <td class="bRight">msg</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Information message.</td>
@@ -251,7 +266,7 @@
                                         <td>Success</td>
                                     </tr>
                                     <tr>
-                                        <td class="bRight">41001</td>
+                                        <td class="bRight">1000</td>
                                         <td>invalid data type</td>
                                     </tr>
                                     <tr>
@@ -964,7 +979,7 @@
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ Game-market ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
+                            ส่ง massage otp</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
@@ -989,11 +1004,21 @@
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Result Code Reference.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">msg</td>
+                                    <tr>
+                                        <td class="bRight">secret_key</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Information message.</td>
-                                    </tr> -->
+                                        <td class="bRight">Secret key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">access_key</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Access key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">phone</td>
+                                        <td class="bRight">Number</td>
+                                        <td class="bRight">Number Phone</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1100,22 +1125,33 @@
                         <div class="koh-tab-content-body">
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body OTP Success</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-string">0</span>,
-    <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"username"</span>: <span class="hljs-string">"member1"</span>,
-        <span class="hljs-attr">"rate"</span>: {   
-            <span class="hljs-attr">"baaclotto"</span>: {
-                <span class="hljs-attr">"bottom1"</span>: {
-                    <span class="hljs-attr">"discount"</span>: <span class="hljs-string">0</span>,
-                    <span class="hljs-attr">"payout"</span>: <span class="hljs-string">3.2</span>
-                },
-            }
+        <span class="hljs-attr">"code"</span>: <span class="hljs-string">0</span>,
+        <span class="hljs-attr">"msg"</span>: <span class="hljs-string">"send OTP success"</span>,
+        <span class="hljs-attr">"verify_link"</span>: <span class="hljs-string">"https://dev-api-gmk.pirate168.com/d4620902-49dc-441b-86f6-a1958dfbc3ec"</span>
+            * Link สำหรับ ให้ User Modify Otp
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body OTP error</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+        <span class="hljs-attr">"code"</span>: <span class="hljs-string">1409</span>,
+        <span class="hljs-attr">"msg"</span>:{
+            <span class="hljs-attr">"en"</span>: <span class="hljs-string">"key not match"</span>,
+            <span class="hljs-attr">"th"</span>: <span class="hljs-string">"คีย์ไม่ถูกต้อง"</span>
         }
-    }
+      
 }</code></pre>
                                 </div>
                             </div>
@@ -1123,8 +1159,72 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
+               
+
+                <div class="col-12" id="tabSeven">
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">3.8
+                            Auto Login URL</b></lable>
+                </div>
+                <div class="pb-3"></div>
+                <div class="btn-toolbar mb-3" role="toolbar">
+                    <div class="divBox">
+                        <!-- <div class="col-12">
+                            <label class="txtHead">Method : </label>
+                            <label>Post</label>
+                        </div> -->
+                        <div class="col-12">
+                            <label class="txtHead">
+                                Url :
+                            </label>
+                            <label>
+                                https://test-api.gamemarket.shop/autologin/token/
+                                <span style="color:red;">022ad66bd6fbc18571dba30310352407</span>/<span style="color:blue;">hk9MjeMDS0iniiZ0h1jzP)te</span>/<span style="color:blue;">MRTZ7CtmJepf3(Vygjqydm)#2</span>
+                            </label>
+                        </div>
+                        <!-- <div class="col-12">
+                            <label class="txtHead">
+                                headers :
+                            </label>
+                            <label>
+                                content-type application/json
+                            </label>
+                        </div> -->
+                    </div>
+                    <div class="form-group col-12">
+                        <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            ตัวอย่าง Format URL รูปแบบ Auto Login</label>
+                            <div class="col-12">
+                            <img src="./API_files/md5.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                        </div>
+                        <!-- <div class="koh-tab-content col-12">
+                            <div class="koh-tab-content-body">
+                                <div class="koh-faq form-group">
+                                    <div class="koh-faq-question form-group ex">
+                                        <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Auto login URL</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    </div>
+                                    <div class="koh-faq-answer col-9">
+
+                                        <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
+            <span class="hljs-attr">"$user_new"</span>= <span class="hljs-number">strtolower($user);</span>, *การแสดงผลของ user ต้องเป็นตัวเล็กเท่านั้นจีงต้องใช้ strtolower
+            <span class="hljs-attr">"$str"</span>= <span class="hljs-number">"{{GameAccessKey}}:{{GameSecretKey}}:".$user_new;</span>,*ต้องนำ Access Key และ Secret Key จากข้อ 3.4 มารวมเป็นตัวแปล str
+            <span class="hljs-attr">"$md5"</span>= <span class="hljs-number">md5($str);</span>, นำตัวแปล str มาใช้ดึงรหัส token 
+            <span class="hljs-attr">"echo"</span> <span class="hljs-number">"{{url}}/api/v1/autologin/token/".$md5."/xxdfsdfsfdfsfd/fghfghfghfhg";</span> *และทำการประกาศตัวแปลทั้งหมด 
+
+        *ผลลัพท์ที่ได้
+        https://test.com/api/v1/autologin/token/b29fe908cc528df4bffb14bc31f793db/{{GameAccessKey}}/{{GameSecretKey}}
+
+        }</code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="form-group col-1"></div>
+            
+                </div>
+                <div class="pb-5"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.8
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.9
                             dropitem</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1154,7 +1254,7 @@
                     </div>
                     <div class="form-group col-12">
                         <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            เมื่อผู้เล่นเข้าสู่หน้าแรกหรือหน้าอื่นๆ ของระบบ Game-market ระบบจะส่งคำขอเพื่อรับยอดเงินคงเหลือของผู้เล่นจริง</label>
+                            เพิ่ม Item ให้ User ใน Gmaemarket</label>
                     </div>
                     <div class="form-group col-12 ex">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
@@ -1180,11 +1280,31 @@
                                         <td class="bRight">Number</td>
                                         <td>Result Code Reference.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        <td>Object response.</td>
-                                    </tr> -->
+                                    <tr>
+                                        <td class="bRight">secret_key</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Secret key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">access_key</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Access key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">track_user</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Name Accout User</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">item_key</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Table Item key form Gamemarket </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">track_id</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Unit Id Drop Item Generate Form Partner</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1231,11 +1351,11 @@
                                         <td class="bRight">Number</td>
                                         <td class="bRight">Result Code Reference.</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="bRight">balance</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight">Total balance.</td>
-                                    </tr> -->
+                                    <tr>
+                                        <td class="bRight">msg</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Information message.</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1292,188 +1412,15 @@
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code Dropitem Success</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"balance"</span>: <span class="hljs-number">50000</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
 }</code></pre>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5"></div>
-
-
-                <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">3.9
-                            Auto Login</b></lable>
-                </div>
-                <div class="pb-3"></div>
-                <div class="btn-toolbar mb-3" role="toolbar">
-                    <div class="divBox">
-                        <div class="col-12">
-                            <label class="txtHead">Method : </label>
-                            <label>Post</label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">
-                                Url :
-                            </label>
-                            <label>
-                                https://test-api.gamemarket.shop/api/v1/autologin/token/
-                                022ad66bd6fbc18571dba30310352407/hk9MjeMDS0iniiZ0h1jzP)te/MRTZ7CtmJepf3(Vygjqydm)#2
-                            </label>
-                        </div>
-                        <div class="col-12">
-                            <label class="txtHead">
-                                headers :
-                            </label>
-                            <label>
-                                content-type application/json
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group col-12">
-                        <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            วิธีการดึง Token และวิธีการใช้งาน</label>
-                            <div class="col-12">
-                            <img src="./API_files/md5.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
-                        </div>
-                        <div class="koh-tab-content col-12">
-                            <div class="koh-tab-content-body">
-                                <div class="koh-faq form-group">
-                                    <div class="koh-faq-question form-group ex">
-                                        <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Auto login GET Token To md5</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                    </div>
-                                    <div class="koh-faq-answer col-9">
-
-                                        <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"$user_new"</span>= <span class="hljs-number">strtolower($user);</span>, *การแสดงผลของ user ต้องเป็นตัวเล็กเท่านั้นจีงต้องใช้ strtolower
-    <span class="hljs-attr">"$str"</span>= <span class="hljs-number">"{{GameAccessKey}}:{{GameSecretKey}}:".$user_new;</span>,*ต้องนำ Access Key และ Secret Key จากข้อ 3.4 มารวมเป็นตัวแปล str
-    <span class="hljs-attr">"$md5"</span>= <span class="hljs-number">md5($str);</span>, นำตัวแปล str มาใช้ดึงรหัส token 
-    <span class="hljs-attr">"echo"</span> <span class="hljs-number">"{{url}}/api/v1/autologin/token/".$md5."/xxdfsdfsfdfsfd/fghfghfghfhg";</span> *และทำการประกาศตัวแปลทั้งหมด 
-
-*ผลลัพท์ที่ได้
-https://test.com/api/v1/autologin/token/b29fe908cc528df4bffb14bc31f793db/{{GameAccessKey}}/{{GameSecretKey}}
-
-}</code></pre>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
-                        </lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable352">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
-                                        </th>
-                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">service</td>
-                                        <td class="bRight">String</td>
-                                        <td class="bRight">Fixed value"UserPlaceBet"</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">data</td>
-                                        <td class="bRight">Object</td>
-                                        <td class="bRight">Object response.</td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="koh-tab-content col-12">
-                        <div class="koh-tab-content-body">
-                            <div class="koh-faq form-group">
-                                <div class="koh-faq-question form-group ex">
-                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                </div>
-                                <div class="koh-faq-answer col-9">
-                                    <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"service"</span>: <span class="hljs-string">"UserPlaceBet"</span>,
-    <span class="hljs-attr">"data"</span>: {
-        <span class="hljs-attr">"txtList"</span>: [
-            {
-                <span class="hljs-attr">"agentPt"</span>: <span class="hljs-number">"20"</span>,
-                <span class="hljs-attr">"rateLevelAmount"</span>: <span class="hljs-number">0</span>
-            }
-        ],
-        <span class="hljs-attr">"status"</span>: <span class="hljs-number">"Pending"</span>,
-        <span class="hljs-attr">"createDate"</span>: <span class="hljs-number">"2021-07-17 17:20:28"</span>
-    }
-}</code></pre>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable2">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
-                                        </th>
-                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">code</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight">Result Code Reference.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="form-group col-12 ex">
-                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
-                    </div>
-                    <div class="form-group col-1"></div>
-                    <div class="form-group col-9">
-                        <div class="table-wrapper">
-                            <table class="table table-borderless table-striped" id="DataTable2">
-                                <thead class="rgba-green-slight">
-                                    <tr>
-                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                            Parameter</th>
-                                        <th set-lan="html:Description" class="txtCenter">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="bRight">0</td>
-                                        <td>Success</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bRight">911001</td>
-                                        <td>Insufficient balance.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
                     </div>
                     <div class="koh-tab-content col-12">
@@ -1481,11 +1428,15 @@ https://test.com/api/v1/autologin/token/b29fe908cc528df4bffb14bc31f793db/{{GameA
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                            Respond Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Respond Code Dropitem Error</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="352B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>
+                                    <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">1604</span>,
+    <span class="hljs-attr">"msg"</span>: {
+        <span class="hljs-attr">"en"</span>: <span class="hljs-number">track_id already exist</span>,
+        <span class="hljs-attr">"th"</span>: <span class="hljs-number">track_id already exist</span>
+    }
 }</code></pre>
                                 </div>
                             </div>
@@ -1493,9 +1444,6 @@ https://test.com/api/v1/autologin/token/b29fe908cc528df4bffb14bc31f793db/{{GameA
                     </div>
                 </div>
                 <div class="pb-5"></div>
-
-
-
 
 
                 <div class="btn-toolbar mb-12">
