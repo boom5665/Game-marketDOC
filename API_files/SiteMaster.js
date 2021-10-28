@@ -4,7 +4,7 @@
 }
 
 function numFour(num) {
-    var url = "/Page_API_Document/Transferwallet_API.aspx?Action=" + num;
+    var url = "/Page_API_Document/optionchannel _API.aspx?Action=" + num;
     window.location.href = url;
 }
 

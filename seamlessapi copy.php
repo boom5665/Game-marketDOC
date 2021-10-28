@@ -4884,7 +4884,7 @@
                         </button>
                     </div>
                     <div class="col-md-6" style="text-align: right;">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='transferwallet.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel .php'">
                             <lan set-lan="html:Next">Next</lan>
                         </button>
                     </div>

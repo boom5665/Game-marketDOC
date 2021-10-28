@@ -98,7 +98,7 @@
 
                 <div class="btn-toolbar mb-12" style="margin-top: 20px;">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='transferwallet.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel .php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>

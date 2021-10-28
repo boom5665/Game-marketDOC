@@ -11,18 +11,18 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. Transferwallet Api">5.
-                        Transferwallet API</b></h1>
+                <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. optionchannel  Api">5.
+                        optionchannel  API</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tab1">
-                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction Transferwallet API">5.1
-                            Introduction Transferwallet API</b></lable>
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction optionchannel  API">5.1
+                            Introduction optionchannel  API</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
                         <label set-lan="html:5.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Transferwallet เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก
+                            ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ optionchannel  เพื่อไปใช้ในระบบคู่ธุรกิจภายนอก
                         </label>
                     </div>
                 </div>

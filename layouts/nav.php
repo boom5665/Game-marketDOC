@@ -120,7 +120,7 @@
                     </li> -->
                     <li id="manu4">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span set-lan="text:4. Transferwallet Api">3. Seamless API</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span set-lan="text:4.optionchannelApi">3. Seamless API</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
@@ -149,255 +149,30 @@
 
                                 <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
                                         <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">3.7
-                                            Send Otp Virify</span></a>
-                                </li>
-                                <li id="manu453"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
-                                        <span class="sv-normal" set-lan="text:3.5.2 UserPlaceBet">3.8
-                                        Auto Login</span></a>
+                                            Send Otp</span></a>
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.9
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.8
                                         Dropitem</span></a>
                                 </li>
-                                <!-- <li id="manu454"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">
-                                        <span class="sv-normal" set-lan="text:3.5.3">3.5.4
-                                            UserPlaceBetCancel</span></a>
-                                </li>
-                                <li id="manu455"><a class="waves-effect submenu" href="seamlessapi.php#tabNine">
-                                        <span class="sv-normal" set-lan="text:3.5.4">3.5.5
-                                            UserPlacePayout</span></a>
-                                </li>
-                                <li id="manu456"><a class="waves-effect submenu" href="seamlessapi.php#tab15">
-                                        <span class="sv-normal">3.5.6 UserPlaceReToRunning</span></a>
-                                </li>
-                                <li id="manu457"><a class="waves-effect submenu" href="seamlessapi.php#tab16">
-                                        <span class="sv-normal">3.5.7 UserPayReward</span></a>
-                                </li>
-                                <li id="manu458"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
-                                        <span class="sv-normal">3.5.8 UserPayRewardCancel</span></a>
-                                </li>
-                                <li id="manu46"><a class="waves-effect submenu" href="seamlessapi.php#tabEleven">
-                                        <span class="sv-normal" set-lan="text:3.6">3.6 Optional
-                                            API</span></a>
-                                </li>
-                                <li id="manu461"><a class="waves-effect submenu" href="seamlessapi.php#tabFourteen">
-                                        <span class="sv-normal" set-lan="text:3.6.1">3.6.1
-                                            memberBetHistories</span></a>
-                                </li>
-                                <li id="manu462"><a class="waves-effect submenu" href="seamlessapi.php#tabTwelve">
-                                        <span class="sv-normal" set-lan="text:3.6.2">3.6.2
-                                            betHistories</span></a>
-                                </li>
-                                <li id="manu463"><a class="waves-effect submenu" href="seamlessapi.php#tabThirteen">
-                                        <span class="sv-normal" set-lan="text:3.6.3">3.6.3
-                                            GetListBetResult</span></a>
-                                </li> -->
+                         
                             </ul>
                         </div>
                     </li>
-                    <!-- <li id="manu5"> -->
-                        <!-- <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Transferwallet API</span><i class="fas fa-angle-down rotate-icon"></i>
+                    <li id="manu5"> 
+                         <a class="collapsible-header waves-effect arrow-r">
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>4. Optionchannel</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
-                                <li id="manu51"><a class="waves-effect submenu" href="transferwallet.php#tab1">
-                                        <span class="sv-normal" set-lan="text:4.1 Introduction Transferwallet API">5.1
-                                            Introduction Transferwallet API</span></a>
+                                <li id="manu51"><a class="waves-effect submenu" href="optionchannel.php">
+                                        <span class="sv-normal" set-lan="text:4.1 Introduction optionchannel  API">4.1
+                                            Auto Login </span></a>
                                 </li>
-                                <li id="manu52"><a class="waves-effect submenu" href="transferwallet.php#tab2">
-                                        <span class="sv-normal" set-lan="text:4.2 Workflow">5.2
-                                            Workflow</span></a>
-                                </li>
-                                <li id="manu53"><a class="waves-effect submenu" href="transferwallet.php#tab3">
-                                        <span class="sv-normal" set-lan="text:4.3 Setting">5.3
-                                            Setting</span></a>
-                                </li>
-                                <li id="manu54"><a class="waves-effect submenu" href="transferwallet.php#tab4">
-                                        <span class="sv-normal" set-lan="text:4.4 Check Member Verify">5.4 login
-                                            request</span></a>
-                                </li>
-                                <li id="manu55"><a class="waves-effect submenu" href="transferwallet.php#tab5">
-                                        <span class="sv-normal" set-lan="text:4.5 getUserBalance">5.5
-                                            getUserBalance</span></a>
-                                </li>
-                                <li id="manu56"><a class="waves-effect submenu" href="transferwallet.php#tab6">
-                                        <span class="sv-normal" set-lan="html:4.6">5.6 deposit</span></a>
-                                </li>
-                                <li id="manu57"><a class="waves-effect submenu" href="transferwallet.php#tab7">
-                                        <span class="sv-normal" set-lan="html:4.7">5.7 withdrawal</span></a>
-                                </li>
-                                <li id="manu58"><a class="waves-effect submenu" href="transferwallet.php#tab8">
-                                        <span class="sv-normal" set-lan="html:4.8">5.8
-                                            memberBetHistories</span></a>
-                                </li>
-                                <li id="manu59"><a class="waves-effect submenu" href="transferwallet.php#tab9">
-                                        <span class="sv-normal" set-lan="html:4.9">5.9
-                                            betHistories</span></a>
-                                </li>
-
-                                <li id="manu510"><a class="waves-effect submenu" href="transferwallet.php#tab10">
-                                        <span class="sv-normal" set-lan="html:4.10">5.10
-                                            depositWithdrawHistory</span></a>
-                                </li>
-                                <li id="manu511"><a class="waves-effect submenu" href="transferwallet.php#tab11">
-                                        <span class="sv-normal" set-lan="html:4.11">5.11
-                                            depositWithdrawHistoryByTransId</span></a>
-                                </li>
-                                <li id="manu512"><a class="waves-effect submenu" href="transferwallet.php#tab12">
-                                        <span class="sv-normal" set-lan="html:4.12">5.12
-                                            GetListBetResult</span></a>
-                                </li>
-                            </ul> -->
-
-                            <!-- <ul>
-                                <li id="manu81"><a class="waves-effect submenu" href="responsecode.php#tabOne">
-                                        <span class="sv-normal">5.1 Member Authen</span></a>
-                                </li>
-                                <li id="manu82"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
-                                        <span class="sv-normal">5.2 Token</span></a>
-                                </li>
-                                <li id="manu83"><a class="waves-effect submenu" href="responsecode.php#tabThree">
-                                        <span class="sv-normal">5.3 System</span></a>
-                                </li>
-                                <li id="manu84"><a class="waves-effect submenu" href="responsecode.php#tabFour">
-                                        <span class="sv-normal">5.4 Validator</span></a>
-                                </li>
-                                <li id="manu85"><a class="waves-effect submenu" href="responsecode.php#tabFive">
-                                        <span class="sv-normal">5.5 Caculator</span></a>
-                                </li>
-                                <li id="manu86"><a class="waves-effect submenu" href="responsecode.php#tabSix">
-                                        <span class="sv-normal">5.6 Seamless API</span></a>
-                                </li>
-                                <li id="manu87"><a class="waves-effect submenu" href="responsecode.php#tabSeven">
-                                        <span class="sv-normal">5.7 Service Respone</span></a>
-                                </li>
-                            </ul> -->
-                        <!-- </div>
-                    </li> -->
-
-                    <!-- <li id="manu6">
-                        <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:5">4. Service Respond Code</span><i class="fas fa-angle-down rotate-icon"></i>
-                        </a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li id="manu61"><a class="waves-effect submenu" href="responsecode.php#tabOne">
-                                        <span class="sv-normal">4.1 Member Authen</span></a>
-                                </li>
-                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
-                                        <span class="sv-normal">6.2 Token</span></a>
-                                </li>
-                                <li id="manu63"><a class="waves-effect submenu" href="responsecode.php#tabThree">
-                                        <span class="sv-normal">6.3 System</span></a>
-                                </li>
-                                <li id="manu64"><a class="waves-effect submenu" href="responsecode.php#tabFour">
-                                        <span class="sv-normal">6.4 Validator</span></a>
-                                </li>
-                                <li id="manu65"><a class="waves-effect submenu" href="responsecode.php#tabFive">
-                                        <span class="sv-normal">6.5 Caculator</span></a>
-                                </li>
-                                <li id="manu66"><a class="waves-effect submenu" href="responsecode.php#tabSix">
-                                        <span class="sv-normal">6.6 Seamless API</span></a>
-                                </li>
-                                <li id="manu62"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
-                                        <span class="sv-normal">4.2 Service Respone</span></a>
-                                </li>
+                            </ul> 
                             </ul>
-                            <ul id="sub_currency">
-                                <li id="manu51"><a class="waves-effect submenu"
-                                        href="currency.php#tab1"><span
-                                            class="sv-normal" set-lan="html:6.1">6.1 Currency</span></a></li>
-                                <li id="manu52"><a class="waves-effect submenu"
-                                        href="currency.php#tab2"><span
-                                            class="sv-normal" set-lan="html:6.2">6.2 BND - Brunei Dollar</span></a></li>
-                                <li id="manu53"><a class="waves-effect submenu"
-                                        href="currency.php#tab3"><span
-                                            class="sv-normal" set-lan="html:6.3">6.3 KHR - Cambodian Riel</span></a>
-                                </li>
-                                <li id="manu54"><a class="waves-effect submenu"
-                                        href="currency.php#tab4"><span
-                                            class="sv-normal" set-lan="html:6.4">6.4 IDR - Indonesian Rupiah</span></a>
-                                </li>
-                                <li id="manu55"><a class="waves-effect submenu"
-                                        href="currency.php#tab5"><span
-                                            class="sv-normal" set-lan="html:6.5">6.5 LAK - Lao Kip</span></a></li>
-                                <li id="manu56"><a class="waves-effect submenu"
-                                        href="currency.php#tab6"><span
-                                            class="sv-normal" set-lan="html:6.6">6.6 MYR - Malaysian Ringgit</span></a>
-                                </li>
-                                <li id="manu57"><a class="waves-effect submenu"
-                                        href="currency.php#tab7"><span
-                                            class="sv-normal" set-lan="html:6.7">6.7 MMK - Myanmar Kyat</span></a></li>
-                                <li id="manu58"><a class="waves-effect submenu"
-                                        href="currency.php#tab8"><span
-                                            class="sv-normal" set-lan="html:6.8">6.8 PHP - Philippine Peso</span></a>
-                                </li>
-                                <li id="manu59"><a class="waves-effect submenu"
-                                        href="currency.php#tab9"><span
-                                            class="sv-normal" set-lan="html:6.9">6.9 SGD - Singapore Dollar</span></a>
-                                </li>
-                                <li id="manu510"><a class="waves-effect submenu"
-                                        href="currency.php#tab10"><span
-                                            class="sv-normal" set-lan="html:6.10">6.10 THB - Thai Baht</span></a></li>
-                                <li id="manu511"><a class="waves-effect submenu"
-                                        href="currency.php#tab11"><span
-                                            class="sv-normal" set-lan="html:6.11">6.11 CNY - Chinese Yuan</span></a>
-                                </li>
-                                <li id="manu512"><a class="waves-effect submenu"
-                                        href="currency.php#tab12"><span
-                                            class="sv-normal" set-lan="html:6.12">6.12 USD - United States
-                                            Dollar</span></a></li>
-                                <li id="manu513"><a class="waves-effect submenu"
-                                        href="currency.php#tab13"><span
-                                            class="sv-normal" set-lan="html:6.13">6.13 JPY - Japanese Yen</span></a>
-                                </li>
-                                <li id="manu514"><a class="waves-effect submenu"
-                                        href="currency.php#tab14"><span
-                                            class="sv-normal" set-lan="html:6.14">6.14 HKD - Hong Kong Dollar</span></a>
-                                </li>
-                                <li id="manu515"><a class="waves-effect submenu"
-                                        href="currency.php#tab15"><span
-                                            class="sv-normal" set-lan="html:6.15">6.15 VND - Vietnamese Dong</span></a>
-                                </li>
-                                <li id="manu516"><a class="waves-effect submenu"
-                                        href="currency.php#tab16"><span
-                                            class="sv-normal" set-lan="html:6.16">6.16 EUR - Euro (European Monetary
-                                            Unit)</span></a></li>
-                                <li id="manu517"><a class="waves-effect submenu"
-                                        href="currency.php#tab17"><span
-                                            class="sv-normal" set-lan="html:6.17">6.17 INR - Indian</span></a></li>
-                                <li id="manu518"><a class="waves-effect submenu"
-                                        href="currency.php#tab18"><span
-                                            class="sv-normal" set-lan="html:6.18">6.18 KRW - South Korean won</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li> -->
-                    <!-- <li id="manu6">
-                        <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:6">7. Game Detail</span><i
-                                class="fas fa-angle-down rotate-icon"></i>
-                        </a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li id="manu61"><a class="waves-effect submenu"
-                                        href="detail.php#tabOne">
-                                        <span class="sv-normal" set-lan="html:6.1">7.1 Card Detail of
-                                            Baccarat</span></a>
-                                </li>
-                                <li id="manu62"><a class="waves-effect submenu"
-                                        href="detail.php#tabTwo">
-                                        <span class="sv-normal" set-lan="html:6.2">7.2 Game Type</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li id="manu7">
-                        <a href="material.php"
-                            class="collapsible-header waves-effect">
-                            <i class="sv-slim-icon far fa-report"></i><span>8. Material</span></a>
-                    </li> -->
+                         </div>
+                    </li> 
                     <li><a id="toggle" class="waves-effect"><i class="sv-slim-icon fas fa-angle-double-left"></i></a>
                     </li>
                 </ul>

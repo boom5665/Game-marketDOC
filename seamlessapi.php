@@ -136,7 +136,6 @@
                                 Url :
                             </label>
                             <label>
-
                                 https://test-api.gamemarket.shop/api/v1/gameacc/check
                             </label>
                         </div>
@@ -282,18 +281,14 @@
                             <div class="koh-faq form-group">
                                 <div class="koh-faq-question form-group ex">
                                     <lable class="Point"><b style="color: #0C3175 !important;">Example Response
-                                            Code</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            Code Have Account</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                 </div>
                                 <div class="koh-faq-answer col-9">
-                                    <pre><code id="3_4B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    <pre><code id="3_4B" style="border-radius: 0.375rem;" class="hljs json">*กรณีมี Account
+{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
     <span class="hljs-attr">"has_acc"</span>: <span class="hljs-string">"yes"</span>,
     <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"game account already exist"</span>
-};
-{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"has_acc"</span>: <span class="hljs-string">"no"</span>,
-    <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"no game account"</span>
 };
 </code></pre>
 
@@ -301,7 +296,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="koh-tab-content col-12">
+                        <div class="koh-tab-content-body">
+                            <div class="koh-faq form-group">
+                                <div class="koh-faq-question form-group ex">
+                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Response
+                                            Code No Have Account</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                </div>
+                                <div class="koh-faq-answer col-9">
+                                    <pre><code id="3_4B" style="border-radius: 0.375rem;" class="hljs json">*กรณีไม่มี Account
+{
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+    <span class="hljs-attr">"has_acc"</span>: <span class="hljs-string">"no"</span>,
+    <span class="hljs-attr">"mgs"</span>: <span class="hljs-string">"no game account"</span>
+};
 
+</code></pre>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- <div class="form-group col-12 ex">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:** Optional">** Optional for direct/re-direct link.</b></lable>
                     </div>
@@ -944,7 +959,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.7 Send Otp Virify">3.7 Send Otp Virify</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.7 Send Otp">3.7 Send Otp</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="divBox">
@@ -1224,7 +1239,7 @@
                 </div>
                 <div class="pb-5"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.9
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.8
                             dropitem</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1452,11 +1467,11 @@
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>
-                    <!-- <div class="col-md-6" style="text-align: right;">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='responsecode.php'">
+                    <div class="col-md-6" style="text-align: right;">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel.php'">
                             <lan set-lan="html:Next">Next</lan>
                         </button>
-                    </div> -->
+                    </div>
                 </div>
                 <!-- </div> -->
 
