@@ -1848,7 +1848,7 @@
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
 
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -2130,7 +2130,7 @@
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
 
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -3398,7 +3398,7 @@
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
 
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from GAMEMARKET system.</td>
                                     </tr>
 
                                     <tr>
@@ -3638,7 +3638,7 @@
                                         <td class="bRight">playerUsername</td>
                                         <td class="bRight">String</td>
 
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">transId</td>

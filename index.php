@@ -19,10 +19,10 @@
 
                 </div>
                 <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                    <h1><b style="color: #0C3175 !important;">AMBLOTTO Integration Form</b></h1>
+                    <h1><b style="color: #0C3175 !important;">GAMEMARKET Integration Form</b></h1>
                     <div class="btn-toolbar mb-3" role="toolbar">
                         <div class="form-group col-12" style="margin-left: 4rem;">
-                            <a href="./API_files/AMBLOTTOVIP_integration_form.docx"
+                            <a href="./API_files/GAMEMARKETVIP_integration_form.docx"
                                 class="Point colorDownload" download=""><i class="fa fa-download"
                                     aria-hidden="true"></i>
                                 <label class="Point">&nbsp;Download</label></a>

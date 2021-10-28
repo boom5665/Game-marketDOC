@@ -1862,7 +1862,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td class="bRight">Player username from GAMEMARKET system.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -2016,7 +2016,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td class="bRight">Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -2063,7 +2063,7 @@
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(GAMEMARKET).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betId</td>
@@ -2332,7 +2332,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td class="bRight">Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -2378,7 +2378,7 @@
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(GAMEMARKET).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
@@ -2632,7 +2632,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td class="bRight">Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -2683,7 +2683,7 @@
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(GAMEMARKET).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betId</td>
@@ -2959,7 +2959,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td class="bRight">Player username from AMBLotto system.</td>
+                                        <td class="bRight">Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -3005,7 +3005,7 @@
                                     <tr>
                                         <td class="bRight">apiPt</td>
                                         <td class="bRight">Number</td>
-                                        <td class="bRight">Position tracking (%) of api(amblotto).</td>
+                                        <td class="bRight">Position tracking (%) of api(GAMEMARKET).</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">betKey</td>
@@ -3248,7 +3248,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
@@ -3452,7 +3452,7 @@
                                     <tr>
                                         <td class="bRight">playerApiUsername</td>
                                         <td class="bRight">String</td>
-                                        <td>Player username from AMBLotto system.</td>
+                                        <td>Player username from GAMEMARKET system.</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">playerUsername</td>
