@@ -13,7 +13,7 @@
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
             <div class="col-12" id="tabSeven">
                     <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">4.1
-                            Auto Login URL</b></lable>
+                        URL Auto Login</b></lable>
                 </div>
                 <div class="pb-3"></div>
 

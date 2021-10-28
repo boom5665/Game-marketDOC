@@ -167,7 +167,7 @@
                             <ul>
                                 <li id="manu51"><a class="waves-effect submenu" href="optionchannel.php">
                                         <span class="sv-normal" set-lan="text:4.1 Introduction optionchannel  API">4.1
-                                            Auto Login </span></a>
+                                         URL Auto Login </span></a>
                                 </li>
                             </ul> 
                             </ul>
