@@ -11,11 +11,11 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. optionchannel  Api">5.
-                        optionchannel  API</b></h1>
+                <h1><b style="color: #19A17A  !important;" data-translate="4" set-lan="text:5. optional  Api">5.
+                optional  API</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tab1">
-                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction optionchannel  API">5.1
+                    <lable><b style="color: #19A17A  !important;" set-lan="text:5.1 Introduction optional  API">5.1
                             Introduction optionchannel  API</b></lable>
                 </div>
                 <div class="pb-3"></div>

@@ -161,12 +161,12 @@
                     </li>
                     <li id="manu5"> 
                          <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>4. Optionchannel</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>4. Optional</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
-                                <li id="manu51"><a class="waves-effect submenu" href="optionchannel.php">
-                                        <span class="sv-normal" set-lan="text:4.1 Introduction optionchannel  API">4.1
+                                <li id="manu51"><a class="waves-effect submenu" href="optional.php">
+                                        <span class="sv-normal" set-lan="text:4.1 Introduction optional  API">4.1
                                          URL Auto Login </span></a>
                                 </li>
                             </ul> 
