@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="pb-5"></div>
                                 <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    3.1.2 คัดลอก Access Key And Secret Key </label>
+                                    3.1.2</label>
                                 <div class="col-12">
                                     <img src="./API_files/3.1.2.png" style="width: 90%; margin-left: 10%;">
                                 </div>
