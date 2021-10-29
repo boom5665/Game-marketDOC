@@ -11,28 +11,28 @@
                 }
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
-                <h1><b style="color: #0C3175 !important;" set-lan="text:3. Seamless API">3. Seamless API</b></h1>
+                <h1><b style="color: #0C3175 !important;" set-lan="text:4. Seamless API">4. Seamless API</b></h1>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabOne">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.1 Introduction Seamless API">3.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.1 Introduction Seamless API">4.1
                             Introduction Seamless API</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:3.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:4.1 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ในส่วนนี้จะแสดงรายละเอียดของการใช้งานระบบ Seamless </label>
                     </div>
                 </div>
                 <div class="pb-3"></div>
                 <div class="col-12" id="tabTwo">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.2 Workflow">3.2 Workflow</b>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.2 Workflow">4.2 Workflow</b>
                     </lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:3.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label set-lan="html:4.2 Body">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ข้อมูลเบื้องต้นแสดงการทำงานในการเรียกใช้ API ของระบบคู่ธุรกิจ เพื่อให้ระบบสามารถเรียกใช้ API ได้ภายใต้เงื่อนไขได้อย่างถูกต้อง</label>
                     </div>
                     <div class="col-12">
@@ -43,7 +43,7 @@
 
 
                 <div class="col-12" id="tabThree">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.3 Setting">3.3 Setting</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.3 Setting">4.3 Setting</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -63,7 +63,7 @@
                         </div>
                         <div class="pb-5"></div>
                         <div class="col-12">
-                            <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 2.1 สร้าง ITEM Game เตรียมไว้สำหรับ Drop ITEM ให้ User </label>
                         </div>
                         <div class="col-12">
@@ -71,7 +71,7 @@
                         </div>
                         <div class="pb-5"></div>
                         <div class="col-12">
-                            <label set-lan="html:3.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 2.2 ตัวอย่าง List ITEM </label>
                         </div>
                         <div class="col-12">
@@ -82,47 +82,47 @@
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab35">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.4 tab35">3.4 Get Access Key and Secret Key</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.4 tab35">4.4 Get Access Key and Secret Key</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 ที่หน้า Game คลิกที่ปุ่มView เพื่อแสดง APi KEY</label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1 ที่หน้า Game คลิกที่ปุ่มView เพื่อแสดง APi KEY</label>
                         <div class="col-12">
-                            <img src="./API_files/3.4.1.png" style="width: 90%; margin-left: 10%;">
+                            <img src="./API_files/4.4.1.png" style="width: 90%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            3.4.2 คัดลอก Access Key And Secret Key </label>
+                            4.4.2 คัดลอก Access Key And Secret Key </label>
                         <div class="col-12">
-                            <img src="./API_files/3.4.2.png" style="width: 90%; margin-left: 10%;">
+                            <img src="./API_files/4.4.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
                     </div>
                 </div>
                 <div class="pb-5"></div>
 
                 <div class="col-12" id="tab36">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5 tab36">3.5 Get ITEM Key</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5 tab36">4.5 Get ITEM Key</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
 
-                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 ที่หน้า ITEM คลิกที่ปุ่ม View เพื่อแสดง API KEY</label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.5.1 ที่หน้า ITEM คลิกที่ปุ่ม View เพื่อแสดง API KEY</label>
                         <div class="col-12">
-                            <img src="./API_files/3.5.1.png" style="width: 90%; margin-left: 10%;">
+                            <img src="./API_files/4.5.1.png" style="width: 90%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            3.5.2 คัดลอก ITEM Key เพื่อนำไปใช้ต่อ API </label>
+                            4.5.2 คัดลอก ITEM Key เพื่อนำไปใช้ต่อ API </label>
                         <div class="col-12">
-                            <img src="./API_files/3.5.2.png" style="width: 90%; margin-left: 10%;">
+                            <img src="./API_files/4.5.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
                     </div>
                 </div>
                 <div class="pb-5"></div>
                 <div class="col-12" id="tabFour">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.6 Check Member Verify">3.6 Check Member Verify</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.6 Check Member Verify">4.6 Check Member Verify</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
@@ -959,7 +959,7 @@
 
 
                 <div class="col-12" id="tabFive">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.7 Send Otp">3.7 Send Otp</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.7 Send Otp">4.7 Send Otp</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="divBox">
@@ -1174,10 +1174,10 @@
                     </div>
                 </div>
                 <div class="pb-3"></div>
-               
+
 
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">3.8
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.2 UserPlaceBet">4.8
                             Auto Login URL</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -1208,7 +1208,7 @@
                     <div class="form-group col-12">
                         <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             ตัวอย่าง Format URL รูปแบบ Auto Login</label>
-                            <div class="col-12">
+                        <div class="col-12">
                             <img src="./API_files/md5.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
                         </div>
                         <!-- <div class="koh-tab-content col-12">
@@ -1221,7 +1221,7 @@
 
                                         <pre><code id="352A" style="border-radius: 0.375rem;" class="hljs json">{
             <span class="hljs-attr">"$user_new"</span>= <span class="hljs-number">strtolower($user);</span>, *การแสดงผลของ user ต้องเป็นตัวเล็กเท่านั้นจีงต้องใช้ strtolower
-            <span class="hljs-attr">"$str"</span>= <span class="hljs-number">"{{GameAccessKey}}:{{GameSecretKey}}:".$user_new;</span>,*ต้องนำ Access Key และ Secret Key จากข้อ 3.4 มารวมเป็นตัวแปล str
+            <span class="hljs-attr">"$str"</span>= <span class="hljs-number">"{{GameAccessKey}}:{{GameSecretKey}}:".$user_new;</span>,*ต้องนำ Access Key และ Secret Key จากข้อ 4.4 มารวมเป็นตัวแปล str
             <span class="hljs-attr">"$md5"</span>= <span class="hljs-number">md5($str);</span>, นำตัวแปล str มาใช้ดึงรหัส token 
             <span class="hljs-attr">"echo"</span> <span class="hljs-number">"{{url}}/api/v1/autologin/token/".$md5."/xxdfsdfsfdfsfd/fghfghfghfhg";</span> *และทำการประกาศตัวแปลทั้งหมด 
 
@@ -1235,11 +1235,11 @@
                         </div> -->
                     </div>
                     <div class="form-group col-1"></div>
-            
+
                 </div>
                 <div class="pb-5"></div>
                 <div class="col-12" id="tabSix" style="margin-left: 10px;">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.1 GetUserBalance">3.8
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.8
                             dropitem</b></lable>
                 </div>
                 <div class="pb-3"></div>
