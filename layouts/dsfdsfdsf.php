@@ -26,7 +26,25 @@
                         <a href="version.php" class="collapsible-header waves-effect">
                             <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:2. Version">2. Version</span></a>
                     </li>
-
+                    <!-- <li id="manu3">
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
+                                set-lan="text:3. Seamless API">3. Lotto Type</span><i
+                                class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li id="manu31"><a class="waves-effect submenu" href="lottotype.php#tabOne">
+                                        <span class="sv-normal" set-lan="text:3.1 Introduction Seamless API">3.1
+                                        Key Type</span></a>
+                                </li>
+                                <li id="manu32"><a class="waves-effect submenu" href="lottotype.php#tabTwo">
+                                        <span class="sv-normal" set-lan="text:3.2 Workflow">3.2
+                                        Key Sub Type</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li> -->
                     <!-- <li id="manu3">
                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span
@@ -49,15 +67,15 @@
                                             Setting</span></a>
                                 </li>
                                 <li id="manu34"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:3.4 login request">3.4 login
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">3.4 login
                                             request</span></a>
                                 </li>
                                 <li id="manu35"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
-                                        <span class="sv-normal" set-lan="text:3.5 Call Back Service">3.5
-                                            Call Back Service</span></a>
+                                        <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">3.5
+                                            Send Otp Virify</span></a>
                                 </li>
                                 <li id="manu351"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.5.1 GetUserBalance">3.5.1
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.6
                                             GetUserBalance</span></a>
                                 </li>
                                 <li id="manu352"><a class="waves-effect submenu" href="seamlessapi.php#tabSeven">
@@ -135,75 +153,26 @@
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
                                         <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.8
-                                            Dropitem</span></a>
+                                        Dropitem</span></a>
                                 </li>
-
+                         
                             </ul>
                         </div>
                     </li>
-                    <li id="manu5">
-                        <a class="collapsible-header waves-effect arrow-r">
+                    <li id="manu5"> 
+                         <a class="collapsible-header waves-effect arrow-r">
                             <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>4. Optional</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
                                 <li id="manu51"><a class="waves-effect submenu" href="optional.php">
                                         <span class="sv-normal" set-lan="text:4.1 Introduction optional  API">4.1
-                                            URL Auto Login </span></a>
+                                         URL Auto Login </span></a>
                                 </li>
+                            </ul> 
                             </ul>
-
-                            <!-- <ul>
-                                <li id="manu81"><a class="waves-effect submenu" href="responsecode.php#tabOne">
-                                        <span class="sv-normal">5.1 Member Authen</span></a>
-                                </li>
-                                <li id="manu82"><a class="waves-effect submenu" href="responsecode.php#tabTwo">
-                                        <span class="sv-normal">5.2 Token</span></a>
-                                </li>
-                                <li id="manu83"><a class="waves-effect submenu" href="responsecode.php#tabThree">
-                                        <span class="sv-normal">5.3 System</span></a>
-                                </li>
-                                <li id="manu84"><a class="waves-effect submenu" href="responsecode.php#tabFour">
-                                        <span class="sv-normal">5.4 Validator</span></a>
-                                </li>
-                                <li id="manu85"><a class="waves-effect submenu" href="responsecode.php#tabFive">
-                                        <span class="sv-normal">5.5 Caculator</span></a>
-                                </li>
-                                <li id="manu86"><a class="waves-effect submenu" href="responsecode.php#tabSix">
-                                        <span class="sv-normal">5.6 Seamless API</span></a>
-                                </li>
-                                <li id="manu87"><a class="waves-effect submenu" href="responsecode.php#tabSeven">
-                                        <span class="sv-normal">5.7 Service Respone</span></a>
-                                </li>
-                            </ul> -->
-                        </div>
-                    </li>
-
-
-                    <!-- <li id="manu6">
-                        <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report"></i><span set-lan="html:6">7. Game Detail</span><i
-                                class="fas fa-angle-down rotate-icon"></i>
-                        </a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li id="manu61"><a class="waves-effect submenu"
-                                        href="detail.php#tabOne">
-                                        <span class="sv-normal" set-lan="html:6.1">7.1 Card Detail of
-                                            Baccarat</span></a>
-                                </li>
-                                <li id="manu62"><a class="waves-effect submenu"
-                                        href="detail.php#tabTwo">
-                                        <span class="sv-normal" set-lan="html:6.2">7.2 Game Type</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li id="manu7">
-                        <a href="material.php"
-                            class="collapsible-header waves-effect">
-                            <i class="sv-slim-icon far fa-report"></i><span>8. Material</span></a>
-                    </li> -->
+                         </div>
+                    </li> 
                     <li><a id="toggle" class="waves-effect"><i class="sv-slim-icon fas fa-angle-double-left"></i></a>
                     </li>
                 </ul>
