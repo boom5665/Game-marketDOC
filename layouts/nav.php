@@ -78,11 +78,11 @@
                                 </li>
 
                                 <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
-                                        <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">3.7
+                                        <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">4.7
                                             Send Otp</span></a>
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
-                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">3.8
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.8
                                             Dropitem</span></a>
                                 </li>
 

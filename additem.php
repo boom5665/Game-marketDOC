@@ -15,11 +15,11 @@
                         <div class="btn-toolbar mb-3" role="toolbar">
                             <div class="form-group col-12">
                                 <div class="pb-5"></div>
-                                <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.1 เพิ่มระดับ Add Level ITEM </label>
+                                <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.1 </label>
                                 <div class="col-12">
                                     <img src="./API_files/3.1.1.png" style="width: 90%; margin-left: 10%;">
                                 </div>
-                                <div class="pb-5"></div>
+                                <div class="pb-3"></div>
                                 <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     3.1.2</label>
                                 <div class="col-12">
@@ -34,11 +34,11 @@
                         <div class="btn-toolbar mb-3" role="toolbar">
                             <div class="form-group col-12">
                                 <div class="pb-5"></div>
-                                <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 เพิ่มระดับ Add item</label>
+                                <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 </label>
                                 <div class="col-12">
                                     <img src="./API_files/3.2.1.png" style="width: 90%; margin-left: 10%;">
                                 </div>
-                                <div class="pb-5"></div>
+                                <div class="pb-3"></div>
                                 <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     3.2.2  </label>
                                 <div class="col-12">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="btn-toolbar mb-12" style="margin-top: 20px;">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='index.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='version.php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>

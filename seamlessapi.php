@@ -168,11 +168,6 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">code</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight">Result Code Reference.</td>
-                                    </tr>
-                                    <tr>
                                         <td class="bRight">secret_key</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Secret key form game</td>
@@ -1015,11 +1010,6 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">code</td>
-                                        <td class="bRight">Number</td>
-                                        <td class="bRight">Result Code Reference.</td>
-                                    </tr>
-                                    <tr>
                                         <td class="bRight">secret_key</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Secret key form game</td>
@@ -1028,6 +1018,11 @@
                                         <td class="bRight">access_key</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Access key form game</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">track_user</td>
+                                        <td class="bRight">String</td>
+                                        <td class="bRight">Name Accout User</td>
                                     </tr>
                                     <tr>
                                         <td class="bRight">phone</td>
@@ -1291,11 +1286,6 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="bRight">code</td>
-                                        <td class="bRight">Number</td>
-                                        <td>Result Code Reference.</td>
-                                    </tr>
-                                    <tr>
                                         <td class="bRight">secret_key</td>
                                         <td class="bRight">String</td>
                                         <td class="bRight">Secret key form game</td>
@@ -1463,7 +1453,7 @@
 
                 <div class="btn-toolbar mb-12">
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='version.php'">
+                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='additem.php'">
                             <lan set-lan="html:Back">Back</lan>
                         </button>
                     </div>
