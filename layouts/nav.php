@@ -70,17 +70,20 @@
                                 <li id="manu35"><a class="waves-effect submenu" href="seamlessapi.php#tab35">
                                         <span class="sv-normal" set-lan="text:3.4 Check Member Verify">4.4 Get Access Key and Secret Key</span></a>
                                 </li>
+                                <li id="manu36"><a class="waves-effect submenu" href="seamlessapi.php#tab45">
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">4.5 Get GAME Key</span></a>
+                                </li>
                                 <li id="manu36"><a class="waves-effect submenu" href="seamlessapi.php#tab36">
-                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">4.5 Get ITEM Key</span></a>
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">4.6 Get ITEM Key</span></a>
                                 </li>
                                 <li id="manu44"><a class="waves-effect submenu" href="seamlessapi.php#tabFour">
-                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">4.6 Check Member Verify</span></a>
+                                        <span class="sv-normal" set-lan="text:3.4 Check Member Verify">4.7 Check Member Verify</span></a>
                                 </li>
 
-                                <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
+                                <!-- <li id="manu45"><a class="waves-effect submenu" href="seamlessapi.php#tabFive">
                                         <span class="sv-normal" set-lan="text:3.5 Send Otp Virify">4.7
                                             Send Otp</span></a>
-                                </li>
+                                </li> -->
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
                                         <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.8
                                             Dropitem</span></a>
