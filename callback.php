@@ -49,7 +49,7 @@
                     </div>
                     <div class="form-group col-12">
                         <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            เพิ่ม Item ให้ User ใน Gmaemarket</label>
+                            เพิ่ม Item ให้ User ใน Gamemarket</label>
                     </div>
 
                     <div class="form-group col-12 ex">
