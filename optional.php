@@ -28,8 +28,8 @@
                                 Url :
                             </label>
                             <label>
-                                https://test-api.gamemarket.shop/autologin/token/
-                                <span style="color:red;">022ad66bd6fbc18571dba30310352407</span>/<span style="color:blue;">hk9MjeMDS0iniiZ0h1jzP)te</span>/<span style="color:blue;">MRTZ7CtmJepf3(Vygjqydm)#2</span>
+                            https://test.gamemarket.shop/autologin/<span style="color:blue;">9M8jKHT9guac56h235!$G52</span>/<span style="color:#327939;">korn</span>/<span style="color:red;">022ad66bd6fbc18571dba30310352407</span>
+                               
                             </label>
                         </div>
                         <!-- <div class="col-12">
