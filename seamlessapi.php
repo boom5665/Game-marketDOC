@@ -64,7 +64,7 @@
                         <div class="pb-5"></div>
                         <div class="col-12">
                             <label set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                2.1 สร้าง ITEM Game เตรียมไว้สำหรับ Drop ITEM ให้ User </label>
+                                2.1 สร้าง Item Game เตรียมไว้สำหรับ Drop Item ให้ User </label>
                         </div>
                         <div class="col-12">
                             <img src="./API_files/2.1.png" style="width: 80%; margin-left: 10%;">
@@ -72,16 +72,16 @@
                         <div class="pb-5"></div>
                         <div class="col-12">
                             <label set-lan="html:4.2 You can">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                2.2 ตัวอย่าง List ITEM </label>
+                                2.2 ตัวอย่าง List Item </label>
                         </div>
                         <div class="col-12">
                             <img src="./API_files/2.2.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            3.คลิกที่เมนู withdraw</label>
+                            3.คลิกที่เมนู Withdraw</label>
                         <div class="col-12">
-                            <img src="./API_files/S3.png" style="width: 30%; margin-left: 10%;">
+                            <img src="./API_files/S3.png" style="width: 80%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <div class="col-12">
@@ -109,7 +109,8 @@
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            4.4.2  ที่หน้า Partner คลิกที่ปุ่มView เพื่อแสดง APi KEY</label>
+                            4.4.2  ที่หน้า Partner คลิกที่ปุ่ม View เพื่อแสดง APi KEY</label>
+
                         <div class="col-12">
                             <img src="./API_files/4.4.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
@@ -140,6 +141,7 @@
                         <div class="col-12">
                             <img src="./API_files/4.5.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
+                        <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             4.5.3 คัดลอก GAME Key เพื่อนำไปใช้ต่อ API </label>
                         <div class="col-12">
@@ -150,24 +152,26 @@
                 <div class="pb-5"></div>
                 <div class="pb-5"></div>
                 <div class="col-12" id="tab36">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5 tab36">4.6 Get ITEM Key</b></lable>
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:4.5 tab36">4.6 Get Item Key</b></lable>
                 </div>
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
 
-                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1 คลิกที่หน้า ITEM </label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1 คลิกที่หน้า Item </label>
                         <div class="col-12">
                             <img src="./API_files/4.6.1.png" style="width: 90%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            4.6.2 ที่หน้า ITEM คลิกที่ปุ่ม View เพื่อแสดง API KEY </label>
+                            4.6.2 ที่หน้า Item คลิกที่ปุ่ม View เพื่อแสดง API KEY </label>
+                      
                         <div class="col-12">
                             <img src="./API_files/4.6.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
+                        <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            4.6.2 คัดลอก ITEM Key เพื่อนำไปใช้ต่อ API </label>
+                            4.6.2 คัดลอก Item Key เพื่อนำไปใช้ต่อ API </label>
                         <div class="col-12">
                             <img src="./API_files/4.6.2.png" style="width: 90%; margin-left: 10%;">
                         </div>
@@ -241,7 +245,7 @@
                     <div class="pb-5"></div>
                     <div class="col-12" id="tabSix" style="margin-left: 10px;">
                         <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.7
-                                dropitem</b></lable>
+                                dropItem</b></lable>
                     </div>
                     <div class="pb-3"></div>
                     <div class="btn-toolbar mb-3" role="toolbar">
@@ -256,7 +260,7 @@
                                 </label>
                                 <label>
 
-                                    https://test-api.gamemarket.shop/api/v1/gamestore/dropitem
+                                    https://test-api.gamemarket.shop/api/v1/gamestore/dropItem
                                 </label>
                             </div>
                             <div class="col-12">
@@ -270,7 +274,7 @@
                         </div>
                         <div class="form-group col-12">
                             <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                เพิ่ม Item ให้ User ใน Gmaemarket</label>
+                                เพิ่ม Item ให้ User ใน Gamemarket</label>
                         </div>
                        
                         <div class="form-group col-12 ex">
@@ -308,7 +312,7 @@
                                             <td class="bRight">game key form Gamemarket Document 4.5</td>
                                         </tr>
                                         <tr>
-                                            <td class="bRight">item_key</td>
+                                            <td class="bRight">Item_key</td>
                                             <td class="bRight">String</td>
                                             <td class="bRight">Item key form Gamemarket Document 4.6</td>
                                         </tr>
@@ -343,7 +347,7 @@
         <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"9M8jKHT9g@ba()5+-!$G52"</span>,
         <span class="hljs-attr">"username"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"game_key"</span>: <span class="hljs-string">"c381ed72-f21a-4314-9c5a-7eb741db86c1"</span>,
-        <span class="hljs-attr">"item_key"</span>: <span class="hljs-string">"13a394dc-d2ba-4ff2-b96f-93329e25e205"</span>,
+        <span class="hljs-attr">"Item_key"</span>: <span class="hljs-string">"13a394dc-d2ba-4ff2-b96f-93329e25e205"</span>,
         <span class="hljs-attr">"track_id"</span>: <span class="hljs-string">"tdfbvc056"</span>,
         <span class="hljs-attr">"token"</span>: <span class="hljs-string">"cc01a5ea55ffddf724a0e45cba1a1410"</span>,
     
@@ -412,7 +416,7 @@
                                         </tr>
                                         <tr>
                                             <td class="bRight">1155</td>
-                                            <td>item not found</td>
+                                            <td>Item not found</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">1602</td>
@@ -424,7 +428,7 @@
                                         </tr>
                                         <tr>
                                             <td class="bRight">1620</td>
-                                            <td>can not add item</td>
+                                            <td>can not add Item</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">1651</td>
@@ -439,7 +443,7 @@
                                 <div class="koh-faq form-group">
                                     <div class="koh-faq-question form-group ex">
                                         <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                                Respond Code Dropitem Success</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                                Respond Code DropItem Success</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                     </div>
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -455,7 +459,7 @@
                                 <div class="koh-faq form-group">
                                     <div class="koh-faq-question form-group ex">
                                         <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                                Respond Code Dropitem Error</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                                Respond Code DropItem Error</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                     </div>
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
@@ -475,7 +479,7 @@
 
                     <div class="btn-toolbar mb-12">
                         <div class="col-md-6">
-                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='additem.php'">
+                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='addItem.php'">
                                 <lan set-lan="html:Back">Back</lan>
                             </button>
                         </div>
