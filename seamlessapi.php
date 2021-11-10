@@ -272,6 +272,7 @@
                             <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 เพิ่ม Item ให้ User ใน Gmaemarket</label>
                         </div>
+                       
                         <div class="form-group col-12 ex">
                             <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
                             </lable>
@@ -292,34 +293,44 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="bRight">secret_key</td>
-                                            <td class="bRight">String</td>
-                                            <td class="bRight">Secret key form game</td>
-                                        </tr>
-                                        <tr>
                                             <td class="bRight">access_key</td>
                                             <td class="bRight">String</td>
                                             <td class="bRight">Access key form game</td>
                                         </tr>
                                         <tr>
-                                            <td class="bRight">track_user</td>
+                                            <td class="bRight">username</td>
                                             <td class="bRight">String</td>
                                             <td class="bRight">Name Accout User</td>
                                         </tr>
                                         <tr>
+                                            <td class="bRight">game_key</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">game key form Gamemarket Document 4.5</td>
+                                        </tr>
+                                        <tr>
                                             <td class="bRight">item_key</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">Table Item key form Gamemarket </td>
+                                            <td class="bRight">Item key form Gamemarket Document 4.6</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">track_id</td>
                                             <td class="bRight">String</td>
                                             <td class="bRight">Unit Id Drop Item Generate Form Partner</td>
                                         </tr>
+                                        <tr>
+                                            <td class="bRight" style="font-weight: 900;">token</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">genarate token format md5 </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+                        <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ตัวอย่าง Generate Token</label>
+                            <div class="col-12">
+                                <img src="./API_files/md2.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                            </div>
                         <div class="koh-tab-content col-12">
                             <div class="koh-tab-content-body">
                                 <div class="koh-faq form-group">
@@ -329,11 +340,12 @@
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
     
-        <span class="hljs-attr">"secret_key"</span>: <span class="hljs-string">"hk9MjeMDS0iniiZ0h1jzP)te"</span>,
-        <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"MRTZ7CtmJepf3(Vygjqydm)#"</span>,
-        <span class="hljs-attr">"track_user"</span>: <span class="hljs-string">"may"</span>,
-        <span class="hljs-attr">"item_key"</span>: <span class="hljs-string">""</span>,
-        <span class="hljs-attr">"track_id"</span>: <span class="hljs-string">""</span>,
+        <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"9M8jKHT9g@ba()5+-!$G52"</span>,
+        <span class="hljs-attr">"username"</span>: <span class="hljs-string">"korn"</span>,
+        <span class="hljs-attr">"game_key"</span>: <span class="hljs-string">"c381ed72-f21a-4314-9c5a-7eb741db86c1"</span>,
+        <span class="hljs-attr">"item_key"</span>: <span class="hljs-string">"13a394dc-d2ba-4ff2-b96f-93329e25e205"</span>,
+        <span class="hljs-attr">"track_id"</span>: <span class="hljs-string">"tdfbvc056"</span>,
+        <span class="hljs-attr">"token"</span>: <span class="hljs-string">"cc01a5ea55ffddf724a0e45cba1a1410"</span>,
     
 }</code></pre>
                                     </div>
@@ -413,6 +425,10 @@
                                         <tr>
                                             <td class="bRight">1620</td>
                                             <td>can not add item</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1651</td>
+                                            <td>invalid game key</td>
                                         </tr>
                                     </tbody>
                                 </table>
