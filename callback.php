@@ -12,7 +12,7 @@
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
                 <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">5.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">6.1
                             Call Back Withdraw</b></lable>
                 </div>
 
@@ -210,13 +210,17 @@
                 <div class="pb-5"></div>
 
                 <div class="btn-toolbar mb-12">
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
-                            <lan set-lan="html:Back">Back</lan>
-                        </button>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='addItem.php'">
+                                <lan set-lan="html:Back">Back</lan>
+                            </button>
+                        </div>
+                        <div class="col-md-6" style="text-align: right;">
+                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel.php'">
+                                <lan set-lan="html:Next">Next</lan>
+                            </button>
+                        </div>
                     </div>
-
-                </div>
 
             </div>
 
@@ -228,8 +232,8 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#manu5 , #manu5 > a").addClass("active");
-        $("#manu5 > div").css("display", "block");
+        $("#manu6 , #manu6 > a").addClass("active");
+        $("#manu6 > div").css("display", "block");
 
         $(this).on("click", ".koh-faq-question", function() {
             $(this).parent().find(".koh-faq-answer").slideToggle();

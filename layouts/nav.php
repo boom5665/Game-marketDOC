@@ -92,12 +92,35 @@
                     </li>
                     <li id="manu5">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. Call Back </span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>5. API Report </span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
-                                <li id="manu51"><a class="waves-effect submenu" href="callback.php">
+                                <li id="manu51"><a class="waves-effect submenu" href="apireport.php#tabOne">
                                         <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.1
+                                        Get Login Token </span></a>
+                                </li>
+                                <li id="manu52"><a class="waves-effect submenu" href="apireport.php#tabTwo">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.2
+                                        Get Winlose Report </span></a>
+                                </li>
+                                <li id="manu53"><a class="waves-effect submenu" href="apireport.php#tabThree">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.3
+                                        Get Game Report </span></a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </li>
+                    <li id="manu6">
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>6. Call Back </span><i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li id="manu61"><a class="waves-effect submenu" href="callback.php">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">6.1
                                         Call back Withdraw </span></a>
                                 </li>
                             </ul>
@@ -106,14 +129,14 @@
                         </div>
                     </li>
 
-                    <li id="manu6">
+                    <li id="manu7">
                         <a class="collapsible-header waves-effect arrow-r">
-                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>6. Optional</span><i class="fas fa-angle-down rotate-icon"></i>
+                            <i class="sv-slim-icon fas fa-report fa-angle-double-left"></i><span>7. Optional</span><i class="fas fa-angle-down rotate-icon"></i>
                         </a>
                         <div class="collapsible-body">
                             <ul>
-                                <li id="manu51"><a class="waves-effect submenu" href="optional.php">
-                                        <span class="sv-normal" set-lan="text:4.1 Introduction optional  API">6.1
+                                <li id="manu71"><a class="waves-effect submenu" href="optional.php">
+                                        <span class="sv-normal" set-lan="text:4.1 Introduction optional  API">7.1
                                             URL Auto Login </span></a>
                                 </li>
                             </ul>

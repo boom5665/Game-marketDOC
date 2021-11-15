@@ -12,7 +12,7 @@
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
             <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">6.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">7.1
                         URL Auto Login</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -99,8 +99,8 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#manu5 , #manu5 > a").addClass("active");
-        $("#manu5 > div").css("display", "block");
+        $("#manu7 , #manu7 > a").addClass("active");
+        $("#manu7 > div").css("display", "block");
 
         $(this).on("click", ".koh-faq-question", function() {
             $(this).parent().find(".koh-faq-answer").slideToggle();
