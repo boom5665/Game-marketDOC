@@ -27,7 +27,7 @@
                                 Url :
                             </label>
                             <label>
-                                https://dev-api.gamemarket.shop/api/v1/user/login/admin
+                                https://test-api.gamemarket.shop/api/v1/user/login/admin
                             </label>
 
                         </div>
@@ -326,7 +326,7 @@
                                     Url :
                                 </label>
                                 <label>
-                                    https://dev-api.gamemarket.shop/api/v1/report/winlose
+                                    https://test-api.gamemarket.shop/api/v1/report/winlose
                                 </label>
 
                             </div>
@@ -519,7 +519,7 @@
                                     Url :
                                 </label>
                                 <label>
-                                     https://dev-api.gamemarket.shop/api/v1/report/games
+                                     https://test-api.gamemarket.shop/api/v1/report/games
                                 </label>
 
                             </div>
