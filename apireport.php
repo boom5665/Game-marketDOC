@@ -260,6 +260,26 @@
                                         <td class="bRight">0</td>
                                         <td>success</td>
                                     </tr>
+                                    <tr>
+                                        <td class="bRight">1000</td>
+                                        <td>invalid data type</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1180</td>
+                                        <td>invalid login</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1640</td>
+                                        <td>invalid login admin role</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1640</td>
+                                        <td>invalid login admin role</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bRight">1129</td>
+                                        <td>can't create token</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -344,7 +364,7 @@
                         <div class="divBox  col-8">
                             <div class="col-12">
                                 <label class="txtHead">
-                                    headers 
+                                    headers
                                 </label>
 
                             </div>
@@ -356,10 +376,10 @@
                                 </label>
                             </div>
                             <div class="col-12">
-                            <label>
+                                <label>
                                     content-type: application/json
                                 </label>
-                                </div>
+                            </div>
                         </div>
                         <div class="form-group col-12 ex">
                             <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
@@ -468,6 +488,19 @@
                                             <td class="bRight">0</td>
                                             <td>success</td>
                                         </tr>
+                                        <tr>
+                                            <td class="bRight">1000</td>
+                                            <td>invalid data type</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1432</td>
+                                            <td>user not found</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1640</td>
+                                            <td>invalid login admin role</td>
+                                        </tr>
+
                                     </tbody>
                                 </table>
                             </div>
@@ -509,51 +542,51 @@
                         </div>
                         <div class="pb-3"></div>
                         <div class="btn-toolbar mb-3" role="toolbar">
-                        <div class="divBox  col-8">
-                            <div class="col-12">
-                                <label class="txtHead">Method : </label>
-                                <label>Post</label>
-                            </div>
-                            <div class="col-12">
-                                <label class="txtHead">
-                                    Url :
-                                </label>
-                                <label>
-                                     https://test-api.gamemarket.shop/api/v1/report/games
-                                </label>
-
-                            </div>
-                            <div class="col-12">
-                                <label class="txtHead">
-                                    headers :
-                                </label>
-                                <label>
-                                    content-type application/json
-                                </label>
-                            </div>
-
-                        </div>
-
-                        <div class="divBox  col-8">
-                            <div class="col-12">
-                                <label class="txtHead">
-                                    headers 
-                                </label>
-
-                            </div>
-                            <div class="col-12">
-                                <label class="">
-                                    <label>
-                                        <span class="txtHead">Authorization:</span> Bearer {token}
-                                    </label>
-                                </label>
-                            </div>
-                            <div class="col-12">
-                            <label>
-                                    content-type: application/json
-                                </label>
+                            <div class="divBox  col-8">
+                                <div class="col-12">
+                                    <label class="txtHead">Method : </label>
+                                    <label>Post</label>
                                 </div>
-                        </div>
+                                <div class="col-12">
+                                    <label class="txtHead">
+                                        Url :
+                                    </label>
+                                    <label>
+                                        https://test-api.gamemarket.shop/api/v1/report/games
+                                    </label>
+
+                                </div>
+                                <div class="col-12">
+                                    <label class="txtHead">
+                                        headers :
+                                    </label>
+                                    <label>
+                                        content-type application/json
+                                    </label>
+                                </div>
+
+                            </div>
+
+                            <div class="divBox  col-8">
+                                <div class="col-12">
+                                    <label class="txtHead">
+                                        headers
+                                    </label>
+
+                                </div>
+                                <div class="col-12">
+                                    <label class="">
+                                        <label>
+                                            <span class="txtHead">Authorization:</span> Bearer {token}
+                                        </label>
+                                    </label>
+                                </div>
+                                <div class="col-12">
+                                    <label>
+                                        content-type: application/json
+                                    </label>
+                                </div>
+                            </div>
 
 
                             <div class="form-group col-12 ex">
@@ -665,6 +698,14 @@
                                             <tr>
                                                 <td class="bRight">0</td>
                                                 <td>success</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bRight">1432</td>
+                                                <td>user not found</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bRight">1640</td>
+                                                <td>invalid login admin role</td>
                                             </tr>
                                         </tbody>
                                     </table>
