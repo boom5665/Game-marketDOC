@@ -773,7 +773,7 @@
                     <div style="background: #f2f3f4;  margin-top: 1%; border-radius: .375rem;">
                         <div class="col-12" id="tabFour">
                             <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.4
-                                    Get Game Report</b></lable>
+                            Transaction</b></lable>
                         </div>
                         <div class="pb-3"></div>
                         <div class="btn-toolbar mb-3" role="toolbar">
