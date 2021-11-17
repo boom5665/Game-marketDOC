@@ -108,6 +108,14 @@
                                         <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.3
                                         Get Game Report </span></a>
                                 </li>
+                                <li id="manu54"><a class="waves-effect submenu" href="apireport.php#tabFour">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.4
+                                         </span></a>
+                                </li>
+                                <li id="manu55"><a class="waves-effect submenu" href="apireport.php#tabFive">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.5
+                                        Transaction</span></a>
+                                </li>
                             </ul>
 
 
