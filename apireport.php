@@ -770,346 +770,432 @@
 
                         <div class="pb-5"></div>
                         <div class="pb-5"></div>
-                    <div style="background: #f2f3f4;  margin-top: 1%; border-radius: .375rem;">
-                        <div class="col-12" id="tabFour">
-                            <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.4
-                            Transaction</b></lable>
-                        </div>
-                        <div class="pb-3"></div>
-                        <div class="btn-toolbar mb-3" role="toolbar">
-                            <div class="divBox  col-8">
-                                <div class="col-12">
-                                    <label class="txtHead">Method : </label>
-                                    <label>Post</label>
-                                </div>
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        Url :
-                                    </label>
-                                    <label>
-                                        https://test-api.gamemarket.shop/api/v1/report/games
-                                    </label>
-
-                                </div>
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        headers :
-                                    </label>
-                                    <label>
-                                        content-type application/json
-                                    </label>
-                                </div>
-
+                        <div style="background: #f2f3f4;  margin-top: 1%; border-radius: .375rem;">
+                            <div class="col-12" id="tabFour">
+                                <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.4
+                                        Report</b></lable>
                             </div>
-
-                            <div class="divBox  col-8">
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        headers
-                                    </label>
-
-                                </div>
-                                <div class="col-12">
-                                    <label class="">
-                                        <label>
-                                            <span class="txtHead">Authorization:</span> Bearer {token}
+                            <div class="pb-3"></div>
+                            <div class="btn-toolbar mb-3" role="toolbar">
+                                <div class="divBox  col-8">
+                                    <div class="col-12">
+                                        <label class="txtHead">Method : </label>
+                                        <label>Post</label>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="txtHead">
+                                            Url :
                                         </label>
-                                    </label>
+                                        <label>
+                                            https://test-api.gamemarket.shop/api/v1/report/games
+                                        </label>
+
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="txtHead">
+                                            headers :
+                                        </label>
+                                        <label>
+                                            content-type application/json
+                                        </label>
+                                    </div>
+
                                 </div>
-                                <div class="col-12">
-                                    <label>
-                                        content-type: application/json
-                                    </label>
+
+                                <div class="divBox  col-8">
+                                    <div class="col-12">
+                                        <label class="txtHead">
+                                            headers
+                                        </label>
+
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="">
+                                            <label>
+                                                <span class="txtHead">Authorization:</span> Bearer {token}
+                                            </label>
+                                        </label>
+                                    </div>
+                                    <div class="col-12">
+                                        <label>
+                                            content-type: application/json
+                                        </label>
+                                    </div>
                                 </div>
-                            </div>
 
 
-                            <div class="form-group col-12 ex">
-                                <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
-                                </lable>
-                            </div>
-                            <div class="form-group col-1"></div>
-                            <div class="form-group col-9">
-                                <div class="table-wrapper">
-                                    <table class="table table-borderless table-striped" id="DataTable351">
-                                        <thead class="rgba-green-slight">
-                                            <tr>
-                                                <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                                    Parameter</th>
-                                                <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
-                                                </th>
-                                                <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                            <tr>
-                                                <td class="bRight">username</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Name Accout User</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="bRight">date_start</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Date_start <span style=" COLOR:RED;">2021-11-15</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">date_end</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Date_end <span style=" COLOR:RED;">2021-11-15</span></td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
+                                <div class="form-group col-12 ex">
+                                    <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
+                                    </lable>
                                 </div>
-                            </div>
+                                <div class="form-group col-1"></div>
+                                <div class="form-group col-9">
+                                    <div class="table-wrapper">
+                                        <table class="table table-borderless table-striped" id="DataTable351">
+                                            <thead class="rgba-green-slight">
+                                                <tr>
+                                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                        Parameter</th>
+                                                    <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                                    </th>
+                                                    <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
 
-                            <div class="koh-tab-content col-12">
-                                <div class="koh-tab-content-body">
-                                    <div class="koh-faq form-group">
-                                        <div class="koh-faq-question form-group ex">
-                                            <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                        </div>
-                                        <div class="koh-faq-answer col-9">
-                                            <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+                                                <tr>
+                                                    <td class="bRight">username</td>
+                                                    <td class="bRight">String</td>
+                                                    <td class="bRight">Name Accout User</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="bRight">date_start</td>
+                                                    <td class="bRight">String</td>
+                                                    <td class="bRight">Date_start <span style=" COLOR:RED;">2021-11-15</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bRight">date_end</td>
+                                                    <td class="bRight">String</td>
+                                                    <td class="bRight">Date_end <span style=" COLOR:RED;">2021-11-15</span></td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="koh-tab-content col-12">
+                                    <div class="koh-tab-content-body">
+                                        <div class="koh-faq form-group">
+                                            <div class="koh-faq-question form-group ex">
+                                                <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            </div>
+                                            <div class="koh-faq-answer col-9">
+                                                <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
     
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"date_start"</span>: <span class="hljs-string">"2021-11-15"</span>,
         <span class="hljs-attr">"date_end"</span>: <span class="hljs-string">"2021-11-15"</span>,
-    
+        <span class="hljs-attr">"limit"</span>: <span class="hljs-string">"2021-11-15"</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-string">"2021-11-15"</span>,
 }</code></pre>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-group col-12 ex">
-                                <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
-                            </div>
-                            <div class="form-group col-1"></div>
-                            <div class="form-group col-9">
-                                <div class="table-wrapper">
-                                    <table class="table table-borderless table-striped" id="DataTable2">
-                                        <thead class="rgba-green-slight">
-                                            <tr>
-                                                <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                                    Parameter</th>
-                                                <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
-                                                </th>
-                                                <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="bRight">code</td>
-                                                <td class="bRight">Number</td>
-                                                <td class="bRight">Result Code Reference.</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">msg</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Information message.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="form-group col-12 ex">
+                                    <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
                                 </div>
-                            </div>
-                            <div class="form-group col-12 ex">
-                                <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
-                            </div>
-                            <div class="form-group col-1"></div>
-                            <div class="form-group col-9">
-                                <div class="table-wrapper">
-                                    <table class="table table-borderless table-striped" id="DataTable2">
-                                        <thead class="rgba-green-slight">
-                                            <tr>
-                                                <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                                    Parameter</th>
-                                                <th set-lan="html:Description" class="txtCenter">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="bRight">0</td>
-                                                <td>success</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">1432</td>
-                                                <td>user not found</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">1640</td>
-                                                <td>invalid login admin role</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="form-group col-1"></div>
+                                <div class="form-group col-9">
+                                    <div class="table-wrapper">
+                                        <table class="table table-borderless table-striped" id="DataTable2">
+                                            <thead class="rgba-green-slight">
+                                                <tr>
+                                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                        Parameter</th>
+                                                    <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                                    </th>
+                                                    <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="bRight">code</td>
+                                                    <td class="bRight">Number</td>
+                                                    <td class="bRight">Result Code Reference.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bRight">msg</td>
+                                                    <td class="bRight">String</td>
+                                                    <td class="bRight">Information message.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="koh-tab-content col-12">
-                                <div class="koh-tab-content-body">
-                                    <div class="koh-faq form-group">
-                                        <div class="koh-faq-question form-group ex">
-                                            <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                                    Respond Code </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
-                                        </div>
-                                        <div class="koh-faq-answer col-9">
-                                            <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
+                                <div class="form-group col-12 ex">
+                                    <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
+                                </div>
+                                <div class="form-group col-1"></div>
+                                <div class="form-group col-9">
+                                    <div class="table-wrapper">
+                                        <table class="table table-borderless table-striped" id="DataTable2">
+                                            <thead class="rgba-green-slight">
+                                                <tr>
+                                                    <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                        Parameter</th>
+                                                    <th set-lan="html:Description" class="txtCenter">Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="bRight">0</td>
+                                                    <td>success</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bRight">1432</td>
+                                                    <td>user not found</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bRight">1640</td>
+                                                    <td>invalid login admin role</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="koh-tab-content col-12">
+                                    <div class="koh-tab-content-body">
+                                        <div class="koh-faq form-group">
+                                            <div class="koh-faq-question form-group ex">
+                                                <lable class="Point"><b style="color: #0C3175 !important;">Example Service
+                                                        Respond Code </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                            </div>
+                                            <div class="koh-faq-answer col-9">
+                                                <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
-    <span class="hljs-attr">"result": [
-    {
-      <span class="hljs-attr">"game_id"</span>: <span class="hljs-number">""</span>,
-      <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-      <span class="hljs-attr">"total_item_price"</span>: <span class="hljs-number">49800</span>,
-      <span class="hljs-attr">"total_item_sale"</span>: <span class="hljs-number">10000</span>,
-      <span class="hljs-attr">"total_pt_system"</span>: <span class="hljs-number">500</span>,
-      <span class="hljs-attr">"total_pt": <span class="hljs-number">9500</span>,
-      <span class="hljs-attr">"outstanding_game"</span>: <span class="hljs-number">39800</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>,
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">success</span>,
+    <span class="hljs-attr">"sumWinLoseReportItem"</span>: {
+        <span class="hljs-attr">"num_row"</span>: <span class="hljs-attr">8</span>,
+        <span class="hljs-attr">"sum_sale_amount"</span>: <span class="hljs-attr">10000</span>,
+        <span class="hljs-attr">"sum_sale_num"</span>: <span class="hljs-attr">4</span>,
+        <span class="hljs-attr">"sum_store_amount"</span>: <span class="hljs-attr">49800</span>,
+        <span class="hljs-attr">"sum_store_num"</span>: <span class="hljs-attr">23</span>,
+        <span class="hljs-attr">"sum_outstanding_item_amount"</span>: <span class="hljs-attr">39800</span>,
+        <span class="hljs-attr">"sum_outstanding_item_num"</span>: <span class="hljs-attr">19</span>
     },
-}
+    <span class="hljs-attr">"winLoseReportItem"</span>: [
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">1</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Town Portal Scroll"</span>,
+            <span class="hljs-attr">"game_id"</span>: <span class="hljs-attr">1</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"dota2"</span>,
+            <span class="hljs-attr">"item_store_num":</span> <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">2</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"xsticky-webfoot_"</span>,
+            <span class="hljs-attr">"game_id"</span>: <span class="hljs-attr">1</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"dota2"</span>,
+            <span class="hljs-attr">"item_store_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">3</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Iron Branch"</span>,
+            <span class="hljs-attr">"game_id"</span>: <span class="hljs-attr">1</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"dota2"</span>,
+            <span class="hljs-attr">"item_store_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>:<span class="hljs-attr"> 0</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">4</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Ring of Basilius"</span>,
+            <span class="hljs-attr">"game_id"</span>: <span class="hljs-attr">1</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"dota2"</span>,
+            <span class="hljs-attr">"item_store_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_store_amount"</span>:<span class="hljs-attr"> 0</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">5</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Urn of Shadows"</span>,
+            <span class="hljs-attr">"game_id"</span>: <span class="hljs-attr">1</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"dota2"</span>,
+            <span class="hljs-attr">"item_store_num"</span>: <span class="hljs-attr">11</span>,
+            <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-attr">19800</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>:<span class="hljs-attr"> 0</span>,
+            <span class="hljs-attr">"outstanding_item_num": <span class="hljs-attr">11</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">19800</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>:<span class="hljs-attr"> 6</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Ogre Axe"</span>,
+            <span class="hljs-attr">"game_id"</span>:<span class="hljs-attr"> 1</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"dota2"</span>,
+            <span class="hljs-attr">"item_store_num"</span>: <span class="hljs-attr">12</span>,
+            <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-attr">30000</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">4</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">10000</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">8</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>:<span class="hljs-attr"> 20000</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">9500</span>,
+            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">500</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">7</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Ring of Regen"</span>,
+            <span class="hljs-attr">"game_id"</span>: <span class="hljs-attr">2</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"LEAGUE"</span>,
+            <span class="hljs-attr">"item_store_num"</span>:<span class="hljs-attr"> 0</span>,
+            <span class="hljs-attr">"item_store_amount"</span>:<span class="hljs-attr"> 0</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>:<span class="hljs-attr"> 0</span>
+        },
+        {
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">8</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-attr">"Hyperstone"</span>,
+            <span class="hljs-attr">"game_id"</span>:<span class="hljs-attr"> 2</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-attr">"LEAGUE"</span>,
+            <span class="hljs-attr">"item_store_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"outstanding_item_amount"</span>:<span class="hljs-attr"> 0</span>,
+            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
+            <span class="hljs-attr">"pt_system"</span>:<span class="hljs-attr"> 0</span>
+        }
+    ]
 }</code></pre>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="koh-tab-content col-12">
-                                <div class="koh-tab-content-body">
-                                    <div class="koh-faq form-group">
-                                        <div class="koh-faq-question form-group ex">
-                                            <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                                    Respond Code </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                            <div class="pb-5"></div>
+
+                            <div class="pb-5"></div>
+                            <div style="background: #f2f3f4;  margin-top: 1%; border-radius: .375rem;">
+                                <div class="col-12" id="tabFive">
+                                    <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.5
+                                            Transaction</b></lable>
+                                </div>
+                                <div class="pb-3"></div>
+                                <div class="btn-toolbar mb-3" role="toolbar">
+                                    <div class="divBox  col-8">
+                                        <div class="col-12">
+                                            <label class="txtHead">Method : </label>
+                                            <label>Post</label>
                                         </div>
-                                        <div class="koh-faq-answer col-9">
-                                            <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
-    <span class="hljs-attr">"result": [
-    {
-      <span class="hljs-attr">"game_id"</span>:  <span class="hljs-number">""</span>,
-      <span class="hljs-attr">"game_name"</span>:  <span class="hljs-number">"LEAGUE"</span>,
-      <span class="hljs-attr">"total_item_price"</span>: <span class="hljs-number"> 0</span>,
-      <span class="hljs-attr">"total_item_sale"</span>:  <span class="hljs-number">0</span>,
-      <span class="hljs-attr">"total_pt_system"</span>:  <span class="hljs-number">0</span>,
-      <span class="hljs-attr">"total_pt"</span>:  <span class="hljs-number">0</span>,
-      <span class="hljs-attr">"outstanding_game"</span>:  <span class="hljs-number">0</span>
-    },
-}
-}</code></pre>
+                                        <div class="col-12">
+                                            <label class="txtHead">
+                                                Url :
+                                            </label>
+                                            <label>
+                                                https://test-api.gamemarket.shop/api/v1/transaction/history
+                                            </label>
+
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="txtHead">
+                                                headers :
+                                            </label>
+                                            <label>
+                                                content-type application/json
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="divBox  col-8">
+                                        <div class="col-12">
+                                            <label class="txtHead">
+                                                headers
+                                            </label>
+
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="">
+                                                <label>
+                                                    <span class="txtHead">Authorization:</span> Bearer {token}
+                                                </label>
+                                            </label>
+                                        </div>
+                                        <div class="col-12">
+                                            <label>
+                                                content-type: application/json
+                                            </label>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pb-5"></div>
-
-                        <div class="pb-5"></div>
-                    <div style="background: #f2f3f4;  margin-top: 1%; border-radius: .375rem;">
-                        <div class="col-12" id="tabFive">
-                            <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.5
-                                    Get Game Report</b></lable>
-                        </div>
-                        <div class="pb-3"></div>
-                        <div class="btn-toolbar mb-3" role="toolbar">
-                            <div class="divBox  col-8">
-                                <div class="col-12">
-                                    <label class="txtHead">Method : </label>
-                                    <label>Post</label>
-                                </div>
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        Url :
-                                    </label>
-                                    <label>
-                                        https://test-api.gamemarket.shop/api/v1/transaction/history
-                                    </label>
-
-                                </div>
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        headers :
-                                    </label>
-                                    <label>
-                                        content-type application/json
-                                    </label>
-                                </div>
-
-                            </div>
-
-                            <div class="divBox  col-8">
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        headers
-                                    </label>
-
-                                </div>
-                                <div class="col-12">
-                                    <label class="">
-                                        <label>
-                                            <span class="txtHead">Authorization:</span> Bearer {token}
-                                        </label>
-                                    </label>
-                                </div>
-                                <div class="col-12">
-                                    <label>
-                                        content-type: application/json
-                                    </label>
-                                </div>
-                            </div>
 
 
-                            <div class="form-group col-12 ex">
-                                <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
-                                </lable>
-                            </div>
-                            <div class="form-group col-1"></div>
-                            <div class="form-group col-9">
-                                <div class="table-wrapper">
-                                    <table class="table table-borderless table-striped" id="DataTable351">
-                                        <thead class="rgba-green-slight">
-                                            <tr>
-                                                <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                                    Parameter</th>
-                                                <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
-                                                </th>
-                                                <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
+                                    <div class="form-group col-12 ex">
+                                        <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
+                                        </lable>
+                                    </div>
+                                    <div class="form-group col-1"></div>
+                                    <div class="form-group col-9">
+                                        <div class="table-wrapper">
+                                            <table class="table table-borderless table-striped" id="DataTable351">
+                                                <thead class="rgba-green-slight">
+                                                    <tr>
+                                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                            Parameter</th>
+                                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                                        </th>
+                                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
 
-                                            <tr>
-                                                <td class="bRight">username</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Name Accout User</td>
-                                            </tr>
+                                                    <tr>
+                                                        <td class="bRight">username</td>
+                                                        <td class="bRight">String</td>
+                                                        <td class="bRight">Name Accout User</td>
+                                                    </tr>
 
-                                            <tr>
-                                                <td class="bRight">date_start</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Date_start <span style=" COLOR:RED;">2021-11-15</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">date_end</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Date_end <span style=" COLOR:RED;">2021-11-15</span></td>
-                                            </tr>
+                                                    <tr>
+                                                        <td class="bRight">start_date</td>
+                                                        <td class="bRight">String</td>
+                                                        <td class="bRight">Date_start <span style=" COLOR:RED;">2021-11-15</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bRight">end_date</td>
+                                                        <td class="bRight">String</td>
+                                                        <td class="bRight">Date_end <span style=" COLOR:RED;">2021-11-15</span></td>
+                                                    </tr>
 
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-
-                            <div class="koh-tab-content col-12">
-                                <div class="koh-tab-content-body">
-                                    <div class="koh-faq form-group">
-                                        <div class="koh-faq-question form-group ex">
-                                            <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="koh-faq-answer col-9">
-                                            <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+                                    </div>
+
+                                    <div class="koh-tab-content col-12">
+                                        <div class="koh-tab-content-body">
+                                            <div class="koh-faq form-group">
+                                                <div class="koh-faq-question form-group ex">
+                                                    <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                                </div>
+                                                <div class="koh-faq-answer col-9">
+                                                    <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
     
         <span class="hljs-attr">"start_date"</span>: <span class="hljs-string">"2021-11-01"</span>,
         <span class="hljs-attr">"end_date"</span>: <span class="hljs-string">"2021-11-30"</span>,
@@ -1119,81 +1205,81 @@
             <span class="hljs-attr">"search"</span>: <span class="hljs-string">"dota"</span>
         },
 }</code></pre>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="form-group col-12 ex">
-                                <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
-                            </div>
-                            <div class="form-group col-1"></div>
-                            <div class="form-group col-9">
-                                <div class="table-wrapper">
-                                    <table class="table table-borderless table-striped" id="DataTable2">
-                                        <thead class="rgba-green-slight">
-                                            <tr>
-                                                <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                                    Parameter</th>
-                                                <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
-                                                </th>
-                                                <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="bRight">code</td>
-                                                <td class="bRight">Number</td>
-                                                <td class="bRight">Result Code Reference.</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">msg</td>
-                                                <td class="bRight">String</td>
-                                                <td class="bRight">Information message.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="form-group col-12 ex">
-                                <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
-                            </div>
-                            <div class="form-group col-1"></div>
-                            <div class="form-group col-9">
-                                <div class="table-wrapper">
-                                    <table class="table table-borderless table-striped" id="DataTable2">
-                                        <thead class="rgba-green-slight">
-                                            <tr>
-                                                <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
-                                                    Parameter</th>
-                                                <th set-lan="html:Description" class="txtCenter">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="bRight">0</td>
-                                                <td>success</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">1432</td>
-                                                <td>user not found</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bRight">1640</td>
-                                                <td>invalid login admin role</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="koh-tab-content col-12">
-                                <div class="koh-tab-content-body">
-                                    <div class="koh-faq form-group">
-                                        <div class="koh-faq-question form-group ex">
-                                            <lable class="Point"><b style="color: #0C3175 !important;">Example Service
-                                                    Respond Code </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    <div class="form-group col-12 ex">
+                                        <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
+                                    </div>
+                                    <div class="form-group col-1"></div>
+                                    <div class="form-group col-9">
+                                        <div class="table-wrapper">
+                                            <table class="table table-borderless table-striped" id="DataTable2">
+                                                <thead class="rgba-green-slight">
+                                                    <tr>
+                                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                            Parameter</th>
+                                                        <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                                        </th>
+                                                        <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="bRight">code</td>
+                                                        <td class="bRight">Number</td>
+                                                        <td class="bRight">Result Code Reference.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bRight">msg</td>
+                                                        <td class="bRight">String</td>
+                                                        <td class="bRight">Information message.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="koh-faq-answer col-9">
-                                            <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
+                                    </div>
+                                    <div class="form-group col-12 ex">
+                                        <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
+                                    </div>
+                                    <div class="form-group col-1"></div>
+                                    <div class="form-group col-9">
+                                        <div class="table-wrapper">
+                                            <table class="table table-borderless table-striped" id="DataTable2">
+                                                <thead class="rgba-green-slight">
+                                                    <tr>
+                                                        <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                            Parameter</th>
+                                                        <th set-lan="html:Description" class="txtCenter">Description</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="bRight">0</td>
+                                                        <td>success</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bRight">1432</td>
+                                                        <td>user not found</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="bRight">1640</td>
+                                                        <td>invalid login admin role</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="koh-tab-content col-12">
+                                        <div class="koh-tab-content-body">
+                                            <div class="koh-faq form-group">
+                                                <div class="koh-faq-question form-group ex">
+                                                    <lable class="Point"><b style="color: #0C3175 !important;">Example Service
+                                                            Respond Code </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                                </div>
+                                                <div class="koh-faq-answer col-9">
+                                                    <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
     <span class="hljs-attr">"data": {
       <span class="hljs-attr">"current_page"</span>: <span class="hljs-number">"1"</span>,
@@ -1252,29 +1338,29 @@
     },
     <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>
 }</code></pre>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="pb-5"></div>
+                                <div class="btn-toolbar mb-12">
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='addItem.php'">
+                                            <lan set-lan="html:Back">Back</lan>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-6" style="text-align: right;">
+                                        <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel.php'">
+                                            <lan set-lan="html:Next">Next</lan>
+                                        </button>
+                                    </div>
+                                </div>
+
                             </div>
+
                         </div>
-
-                        <div class="pb-5"></div>
-                        <div class="btn-toolbar mb-12">
-                            <div class="col-md-6">
-                                <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='addItem.php'">
-                                    <lan set-lan="html:Back">Back</lan>
-                                </button>
-                            </div>
-                            <div class="col-md-6" style="text-align: right;">
-                                <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel.php'">
-                                    <lan set-lan="html:Next">Next</lan>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
     </main>
 </div>
 
