@@ -103,22 +103,15 @@
                 <div class="pb-3"></div>
                 <div class="btn-toolbar mb-3" role="toolbar">
                     <div class="form-group col-12">
-                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1 คลิกที่หน้า Partner </label>
+                        <label set-lan="html:1.	Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1 คลิกที่หน้า Profile </label>
                         <div class="col-12">
                             <img src="./API_files/4.4.1.png" style="width: 90%; margin-left: 10%;">
                         </div>
                         <div class="pb-5"></div>
                         <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            4.4.2  ที่หน้า Partner คลิกที่ปุ่ม View เพื่อแสดง APi KEY</label>
-
+                            4.4.2 คัดลอก Access Key And Secret Key </label>
                         <div class="col-12">
                             <img src="./API_files/4.4.2.png" style="width: 90%; margin-left: 10%;">
-                        </div>
-                        <div class="pb-5"></div>
-                        <label set-lan="html:2.	Click">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            4.4.3 คัดลอก Access Key And Secret Key </label>
-                        <div class="col-12">
-                            <img src="./API_files/4.4.3.png" style="width: 90%; margin-left: 10%;">
                         </div>
                     </div>
                 </div>

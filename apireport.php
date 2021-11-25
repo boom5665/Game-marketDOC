@@ -350,14 +350,7 @@
                                 </label>
 
                             </div>
-                            <div class="col-12">
-                                <label class="txtHead">
-                                    headers :
-                                </label>
-                                <label>
-                                    content-type application/json
-                                </label>
-                            </div>
+              
 
                         </div>
 
@@ -556,14 +549,7 @@
                                     </label>
 
                                 </div>
-                                <div class="col-12">
-                                    <label class="txtHead">
-                                        headers :
-                                    </label>
-                                    <label>
-                                        content-type application/json
-                                    </label>
-                                </div>
+                            
 
                             </div>
 
@@ -791,14 +777,7 @@
                                         </label>
 
                                     </div>
-                                    <div class="col-12">
-                                        <label class="txtHead">
-                                            headers :
-                                        </label>
-                                        <label>
-                                            content-type application/json
-                                        </label>
-                                    </div>
+              
 
                                 </div>
 
@@ -1113,14 +1092,7 @@
                                             </label>
 
                                         </div>
-                                        <div class="col-12">
-                                            <label class="txtHead">
-                                                headers :
-                                            </label>
-                                            <label>
-                                                content-type application/json
-                                            </label>
-                                        </div>
+                                       
 
                                     </div>
 
