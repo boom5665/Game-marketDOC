@@ -397,7 +397,7 @@
                                         <tr>
                                             <td class="bRight">keyword</td>
                                             <td class="bRight">String</td>
-                                            <td class="bRight">Track Withdraw</td>
+                                            <td class="bRight">Keyword</td>
                                         </tr>
                                         <tr>
                                             <td class="bRight">date_start</td>
