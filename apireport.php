@@ -773,7 +773,7 @@
                                             Url :
                                         </label>
                                         <label>
-                                            https://test-api.gamemarket.shop/api/v1/report/games
+                                            https://test-api.gamemarket.shop/api/v1/report/items
                                         </label>
 
                                     </div>
