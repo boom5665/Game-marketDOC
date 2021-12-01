@@ -82,7 +82,7 @@
                 
                 <div class="btn-toolbar mb-12">
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='seamlessapi.php'">
+                    <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='callback.php'">
                         <lan set-lan="html:Back">Back</lan>
                     </button>
                 </div>

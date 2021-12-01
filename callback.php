@@ -211,12 +211,12 @@
 
                 <div class="btn-toolbar mb-12">
                         <div class="col-md-6">
-                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='addItem.php'">
+                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='apireport.php'">
                                 <lan set-lan="html:Back">Back</lan>
                             </button>
                         </div>
                         <div class="col-md-6" style="text-align: right;">
-                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optionchannel.php'">
+                            <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='optional.php'">
                                 <lan set-lan="html:Next">Next</lan>
                             </button>
                         </div>
