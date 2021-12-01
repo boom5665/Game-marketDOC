@@ -1330,7 +1330,7 @@
                                                     Url :
                                                 </label>
                                                 <label>
-                                                    https://test-back/api/v1/user/item/list
+                                                    https://test-api/api/v1/user/item/list
                                                 </label>
 
                                             </div>
