@@ -20,11 +20,13 @@
                 <ul class="accordion collapsible collapsible-accordion">
                     <li id="manu1">
                         <a href="index.php" class="collapsible-header waves-effect">
-                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:1. Introduction">1. Introduction</span></a>
+                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:1. Introduction">1. Introduction</span>
+                        </a>
                     </li>
                     <li id="manu2">
                         <a href="version.php" class="collapsible-header waves-effect">
-                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:2. Version">2. Version</span></a>
+                            <i class="sv-slim-icon far fa-report fa-angle-double-left"></i><span set-lan="text:2. Version">2. Version</span>
+                        </a>
                     </li>
 
                     <li id="manu3">

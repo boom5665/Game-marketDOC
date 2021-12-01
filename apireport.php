@@ -1594,7 +1594,13 @@
             <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Hamer"</span>
         }
     ],
-    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">1</span>
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"memberPoint": {
+        <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
+        <span class="hljs-attr">"sale"</span>: <span class="hljs-number">29000</span>,
+        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">2300</span>,
+        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number">26700</span>
+    },
 }</code></pre>
                                                 </div>
                                             </div>
