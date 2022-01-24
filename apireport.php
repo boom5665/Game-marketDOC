@@ -1393,7 +1393,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td class="bRight">page</td>
-                                                            <td class="bRight">String</td>
+                                                            <td class="bRight">Integer</td>
                                                             <td class="bRight">Page</td>
                                                         </tr>
                                                         <tr>
@@ -1407,7 +1407,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td class="bRight">limit</td>
-                                                            <td class="bRight">String</td>
+                                                            <td class="bRight">Integer</td>
                                                             <td class="bRight">Limit</td>
                                                         </tr>
                                                     </tbody>
