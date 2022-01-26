@@ -1330,7 +1330,7 @@
                                                     Url :
                                                 </label>
                                                 <label>
-                                                    https://test-api/api/v1/user/item/list
+                                                    https://test-api.gamemarket.shop/api/v1/user/item/list
                                                 </label>
 
                                             </div>
@@ -1642,7 +1642,7 @@
                                                         Url :
                                                     </label>
                                                     <label>
-                                                        https://test-api/api/v1/user/member/list
+                                                        https://test-api.gamemarket.shop/api/v1/user/member/list
                                                     </label>
 
                                                 </div>
