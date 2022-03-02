@@ -346,7 +346,7 @@
                                     Url :
                                 </label>
                                 <label>
-                                    https://test-api.gamemarket.shop/api/v1/report/winlose
+                                    https://test-api.gamemarket.shop/api/v1/report/winlosev2
                                 </label>
 
                             </div>
@@ -516,7 +516,12 @@
         <span class="hljs-attr">"item_sale_amount"</span>:<span class="hljs-number"> 10000</span>,
         <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-number">39800</span>,
         <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">2300</span>,
-        <span class="hljs-attr">"outstanding"</span>: <span class="hljs-number">7700</span>
+        <span class="hljs-attr">"outstanding"</span>: <span class="hljs-number">7700</span>,
+        <span class="hljs-attr">"charge_point"</span>: <span class="hljs-number">15</span>,
+        <span class="hljs-attr">"gamemarket_amount"</span>: <span class="hljs-number">2.5</span>,
+        <span class="hljs-attr">"share_amount"</span>: <span class="hljs-number">0.45</span>,
+        <span class="hljs-attr">"wiwallet_amount"</span>: <span class="hljs-number">2.5</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number">80</span>
     }
   ]
 }</code></pre>
@@ -1614,7 +1619,8 @@
         <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
         <span class="hljs-attr">"sale"</span>: <span class="hljs-number">29000</span>,
         <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">2300</span>,
-        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number">26700</span>
+        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number">26700</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number">1840</span>
     },
 }</code></pre>
                                                     </div>
