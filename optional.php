@@ -12,7 +12,7 @@
             </style>
             <div style="background: #f2f3f4; padding: 30px; margin-top: 1%; border-radius: .375rem;">
             <div class="col-12" id="tabSeven">
-                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">7.1
+                    <lable><b style="color: #0C3175 !important;" set-lan="text:3.5.2 UserPlaceBet">6.1
                         URL Auto Login</b></lable>
                 </div>
                 <div class="pb-3"></div>
@@ -83,9 +83,9 @@
                 
                 <div class="btn-toolbar mb-12">
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='callback.php'">
-                        <lan set-lan="html:Back">Back</lan>
-                    </button>
+                <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='apireport.php'">
+                                <lan set-lan="html:Back">Back</lan>
+                            </button>
                 </div>
               
             </div>
