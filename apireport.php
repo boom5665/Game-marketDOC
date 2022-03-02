@@ -517,11 +517,11 @@
         <span class="hljs-attr">"item_store_amount"</span>: <span class="hljs-number">39800</span>,
         <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">2300</span>,
         <span class="hljs-attr">"outstanding"</span>: <span class="hljs-number">7700</span>,
-        <span class="hljs-attr">"charge_point"</span>: <span class="hljs-number">15</span>,
-        <span class="hljs-attr">"gamemarket_amount"</span>: <span class="hljs-number">2.5</span>,
-        <span class="hljs-attr">"share_amount"</span>: <span class="hljs-number">0.45</span>,
-        <span class="hljs-attr">"wiwallet_amount"</span>: <span class="hljs-number">2.5</span>,
-        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number">80</span>
+        <span class="hljs-attr">"charge_point"</span>: <span class="hljs-number">345</span>,
+        <span class="hljs-attr">"gamemarket_amount"</span>: <span class="hljs-number">57.5</span>,
+        <span class="hljs-attr">"share_amount"</span>: <span class="hljs-number">115</span>,
+        <span class="hljs-attr">"wiwallet_amount"</span>: <span class="hljs-number">57.5</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number">1840</span>
     }
   ]
 }</code></pre>
