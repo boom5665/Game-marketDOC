@@ -1431,7 +1431,7 @@
     
         <span class="hljs-attr">"user_key"</span>: <span class="hljs-string">"3c0301d7-7695-48c1-8fc9-0983bb2f6b54"</span>,
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">""</span>,
-        <span class="hljs-attr">"page"</span>: <span class="hljs-string">"1"</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
         <span class="hljs-attr">"status"</span>: <span class="hljs-string">"out",("in","out","")"</span>,
         <span class="hljs-attr">"limit"</span>:<span class="hljs-string">"100"</span>,
      
@@ -1729,7 +1729,7 @@
                                                             <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
     
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
-        <span class="hljs-attr">"page"</span>: <span class="hljs-string">"1"</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
         <span class="hljs-attr">"limit"</span>:<span class="hljs-string">"100"</span>,
      
 }
