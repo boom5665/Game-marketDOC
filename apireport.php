@@ -960,9 +960,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">2</span>,
@@ -974,9 +972,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">3</span>,
@@ -988,9 +984,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>:<span class="hljs-attr"> 0</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">4</span>,
@@ -1002,9 +996,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">5</span>,
@@ -1016,9 +1008,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>:<span class="hljs-attr"> 0</span>,
             <span class="hljs-attr">"outstanding_item_num": <span class="hljs-attr">11</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">19800</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">19800</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>:<span class="hljs-attr"> 6</span>,
@@ -1030,9 +1020,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">4</span>,
             <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">10000</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">8</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>:<span class="hljs-attr"> 20000</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">9500</span>,
-            <span class="hljs-attr">"pt_system"</span>: <span class="hljs-attr">500</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>:<span class="hljs-attr"> 20000</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">7</span>,
@@ -1044,9 +1032,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>:<span class="hljs-attr"> 0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>: <span class="hljs-attr">0</span>
         },
         {
             <span class="hljs-attr">"item_id"</span>: <span class="hljs-attr">8</span>,
@@ -1058,9 +1044,7 @@
             <span class="hljs-attr">"item_sale_num"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"item_sale_amount"</span>: <span class="hljs-attr">0</span>,
             <span class="hljs-attr">"outstanding_item_num"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"outstanding_item_amount"</span>:<span class="hljs-attr"> 0</span>,
-            <span class="hljs-attr">"pt_partner"</span>: <span class="hljs-attr">0</span>,
-            <span class="hljs-attr">"pt_system"</span>:<span class="hljs-attr"> 0</span>
+            <span class="hljs-attr">"outstanding_item_amount"</span>:<span class="hljs-attr"> 0</span>
         }
     ]
 }</code></pre>
