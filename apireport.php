@@ -859,8 +859,8 @@
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"date_start"</span>: <span class="hljs-string">"2021-11-15"</span>,
         <span class="hljs-attr">"date_end"</span>: <span class="hljs-string">"2021-11-15"</span>,
-        <span class="hljs-attr">"limit"</span>: <span class="hljs-string">"2021-11-15"</span>,
-        <span class="hljs-attr">"page"</span>: <span class="hljs-string">"2021-11-15"</span>,
+        <span class="hljs-attr">"limit"</span>: <span class="hljs-string">"100"</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
 }</code></pre>
                                             </div>
                                         </div>
@@ -1173,8 +1173,8 @@
     
         <span class="hljs-attr">"start_date"</span>: <span class="hljs-string">"2021-11-01"</span>,
         <span class="hljs-attr">"end_date"</span>: <span class="hljs-string">"2021-11-30"</span>,
-        <span class="hljs-attr">"perpage"</span>: <span class="hljs-string">"100"</span>,
-        <span class="hljs-attr">"page"</span>: <span class="hljs-string">"1"</span>,
+        <span class="hljs-attr">"perpage"</span>: <span class="hljs-string">100</span>,
+        <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
         <span class="hljs-attr">"filter"</span>:{
             <span class="hljs-attr">"search"</span>: <span class="hljs-string">"dota"</span>
         },
