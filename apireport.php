@@ -859,7 +859,7 @@
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"date_start"</span>: <span class="hljs-string">"2021-11-15"</span>,
         <span class="hljs-attr">"date_end"</span>: <span class="hljs-string">"2021-11-15"</span>,
-        <span class="hljs-attr">"limit"</span>: <span class="hljs-string">"100"</span>,
+        <span class="hljs-attr">"limit"</span>: <span class="hljs-string">100</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
 }</code></pre>
                                             </div>
@@ -1433,7 +1433,7 @@
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">""</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
         <span class="hljs-attr">"status"</span>: <span class="hljs-string">"out",("in","out","")"</span>,
-        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">"100"</span>,
+        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">100</span>,
      
 }
 </code></pre>
@@ -1730,7 +1730,7 @@
     
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
-        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">"100"</span>,
+        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">100</span>,
      
 }
 </code></pre>
