@@ -2231,7 +2231,7 @@
         <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3("</span>,
         <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">"1647943788"</span>,
         <span class="hljs-attr">"token"</span>:<span class="hljs-string">"e460fb7304009e892b4830e3e848544c"</span>,
-        <span class="hljs-attr">"game_id"</span>: <span class="hljs-string">()</span>,
+        <span class="hljs-attr">"game_id"</span>: <span class="hljs-string">0</span>,
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
         <span class="hljs-attr">"limit"</span>:<span class="hljs-string">100</span>,
