@@ -1721,6 +1721,16 @@
                                                                 <td class="bRight">String</td>
                                                                 <td class="bRight">asc|desc</td>
                                                             </tr>
+                                                            <tr>
+                                                                <td class="bRight">Access_key</td>
+                                                                <td class="bRight">String</td>
+                                                                <td class="bRight">access_key partner</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="bRight">token</td>
+                                                                <td class="bRight">String</td>
+                                                                <td class="bRight">Token </td>
+                                                            </tr>
 
                                                         </tbody>
                                                     </table>
@@ -2192,6 +2202,16 @@
                                                                         <td class="bRight">Sort</td>
                                                                         <td class="bRight">String</td>
                                                                         <td class="bRight">asc|desc</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="bRight">Access_key</td>
+                                                                        <td class="bRight">String</td>
+                                                                        <td class="bRight">access_key partner</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="bRight">token</td>
+                                                                        <td class="bRight">String</td>
+                                                                        <td class="bRight">Token </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
