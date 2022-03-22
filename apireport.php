@@ -2198,11 +2198,7 @@
                                                                         <td class="bRight">String</td>
                                                                         <td class="bRight">unix_timestamp</td>
                                                                     </tr>
-                                                                    <tr>
-                                                                        <td class="bRight">Sort</td>
-                                                                        <td class="bRight">String</td>
-                                                                        <td class="bRight">asc|desc</td>
-                                                                    </tr>
+                                                                  
                                                                     <tr>
                                                                         <td class="bRight">access_key</td>
                                                                         <td class="bRight">String</td>
@@ -2234,8 +2230,6 @@
         <span class="hljs-attr">"limit"</span>:<span class="hljs-string">100</span>,
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
-        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">5</span>,
-     
 }
 </code></pre>
                                                                 </div>
