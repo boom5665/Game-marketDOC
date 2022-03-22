@@ -1736,9 +1736,9 @@
                                                         <div class="koh-faq-answer col-9">
                                                             <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
     
-        <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3"</span>,
-        <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"1647943788"</span>,
-        <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">1</span>,
+        <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"test_game"</span>,
+        <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3("</span>,
+        <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">1647943788</span>,
         <span class="hljs-attr">"token"</span>: <span class="hljs-string">e460fb7304009e892b4830e3e848544c</span>,
         <span class="hljs-attr">"sort"</span>:<span class="hljs-string">desc</span>,
         <span class="hljs-attr">"user_key"</span>:<span class="hljs-string">20694395-8da5-443a-a98d-20083f7592ec</span>,
@@ -2205,7 +2205,8 @@
                                                                 </div>
                                                                 <div class="koh-faq-answer col-9">
                                                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
-                                                                        "partner":"test_game",
+
+                                                                        <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"test_game"</span>,
         <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3("</span>,
         <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">1647943788</span>,
         <span class="hljs-attr">"token"</span>:<span class="hljs-string">e460fb7304009e892b4830e3e848544c</span>,
