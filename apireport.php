@@ -2200,7 +2200,7 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="bRight">game_id</td>
-                                                                        <td class="bRight">String</td>
+                                                                        <td class="bRight">Integer</td>
                                                                         <td class="bRight">game_id</td>
                                                                     </tr>
                                                                     <tr>
