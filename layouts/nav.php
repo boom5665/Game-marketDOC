@@ -126,9 +126,17 @@
                                         <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.6
                                         User Item List</span></a>
                                 </li>
+                                <li id="manu561"><a class="waves-effect submenu" href="apireport.php#tabSixone">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.6.1
+                                        User Item List (No Auth) </span></a>
+                                </li>
                                 <li id="manu57"><a class="waves-effect submenu" href="apireport.php#tabSeven">
                                         <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.7
                                         User Member List</span></a>
+                                </li>
+                                <li id="manu571"><a class="waves-effect submenu" href="apireport.php#tabSevenone">
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.7.1
+                                        User Member List (No Auth)</span></a>
                                 </li>
                             </ul>
 
