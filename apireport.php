@@ -1722,7 +1722,7 @@
                                                                 <td class="bRight">asc|desc</td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="bRight">Access_key</td>
+                                                                <td class="bRight">access_key</td>
                                                                 <td class="bRight">String</td>
                                                                 <td class="bRight">access_key partner</td>
                                                             </tr>
@@ -2189,12 +2189,12 @@
                                                                         <td class="bRight">Limit</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="bRight">Partner</td>
+                                                                        <td class="bRight">partner</td>
                                                                         <td class="bRight">String</td>
                                                                         <td class="bRight">partner user</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="bRight">Timestamp</td>
+                                                                        <td class="bRight">timestamp</td>
                                                                         <td class="bRight">String</td>
                                                                         <td class="bRight">unix_timestamp</td>
                                                                     </tr>
@@ -2204,7 +2204,7 @@
                                                                         <td class="bRight">asc|desc</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="bRight">Access_key</td>
+                                                                        <td class="bRight">access_key</td>
                                                                         <td class="bRight">String</td>
                                                                         <td class="bRight">access_key partner</td>
                                                                     </tr>
