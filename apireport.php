@@ -1397,7 +1397,7 @@
                                                         <tr>
                                                             <td class="bRight">limit</td>
                                                             <td class="bRight">Integer</td>
-                                                            <td class="bRight">Limit</td>
+                                                            <td class="bRight">limit</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -1749,9 +1749,9 @@
         <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"test_game"</span>,
         <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3("</span>,
         <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">"1647943788"</span>,
-        <span class="hljs-attr">"token"</span>: <span class="hljs-string">e460fb7304009e892b4830e3e848544c</span>,
+        <span class="hljs-attr">"token"</span>: <span class="hljs-string">"e460fb7304009e892b4830e3e848544c"</span>,
         <span class="hljs-attr">"sort"</span>:<span class="hljs-string">"desc"</span>,
-        <span class="hljs-attr">"user_key"</span>:<span class="hljs-string">20694395-8da5-443a-a98d-20083f7592ec</span>,
+        <span class="hljs-attr">"user_key"</span>:<span class="hljs-string">"20694395-8da5-443a-a98d-20083f7592ec"</span>,
         <span class="hljs-attr">"keyword"</span>:<span class="hljs-string"></span>,
         <span class="hljs-attr">"page"</span>:<span class="hljs-string">1</span>,
         <span class="hljs-attr">"status"</span>:<span class="hljs-string">"in"</span>,
@@ -1970,7 +1970,7 @@
                                                                 <tr>
                                                                     <td class="bRight">limit</td>
                                                                     <td class="bRight">Integer</td>
-                                                                    <td class="bRight">Limit</td>
+                                                                    <td class="bRight">limit</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -2186,7 +2186,7 @@
                                                                     <tr>
                                                                         <td class="bRight">limit</td>
                                                                         <td class="bRight">Integer</td>
-                                                                        <td class="bRight">Limit</td>
+                                                                        <td class="bRight">limit</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="bRight">partner</td>
@@ -2211,7 +2211,7 @@
                                                                     <tr>
                                                                         <td class="bRight">token</td>
                                                                         <td class="bRight">String</td>
-                                                                        <td class="bRight">Token </td>
+                                                                        <td class="bRight">token </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
