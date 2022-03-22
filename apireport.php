@@ -1738,13 +1738,13 @@
     
         <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"test_game"</span>,
         <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3("</span>,
-        <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">1647943788</span>,
+        <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">"1647943788"</span>,
         <span class="hljs-attr">"token"</span>: <span class="hljs-string">e460fb7304009e892b4830e3e848544c</span>,
-        <span class="hljs-attr">"sort"</span>:<span class="hljs-string">desc</span>,
+        <span class="hljs-attr">"sort"</span>:<span class="hljs-string">"desc"</span>,
         <span class="hljs-attr">"user_key"</span>:<span class="hljs-string">20694395-8da5-443a-a98d-20083f7592ec</span>,
         <span class="hljs-attr">"keyword"</span>:<span class="hljs-string"></span>,
         <span class="hljs-attr">"page"</span>:<span class="hljs-string">1</span>,
-        <span class="hljs-attr">"status"</span>:<span class="hljs-string">ac001</span>,
+        <span class="hljs-attr">"status"</span>:<span class="hljs-string">"in"</span>,
         <span class="hljs-attr">"limit"</span>:<span class="hljs-string">50</span>
 
 }
@@ -1845,21 +1845,22 @@
             <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
             <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
             <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
             <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         },
         {
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"65798b47-b4c0-46f8-8d00-bae09d48582a"</span>,
-            <span class="hljs-attr">"id"</span>:<span class="hljs-number"> 8</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number">4</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"11116"</span>
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-11T13:13:45.212803+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>:<span class="hljs-number"> "2021-11-11T14:06:39.550411+07:00"</span>,
-            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Sword"</span>
+            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number">8</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>:<span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">8</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>:<span class="hljs-number"> "2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         },
 
     <span class="hljs-attr">"memberPoint": {
@@ -2206,17 +2207,14 @@
                                                                 <div class="koh-faq-answer col-9">
                                                                     <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
 
-                                                                        <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"test_game"</span>,
+        <span class="hljs-attr">"partner"</span>: <span class="hljs-string">"test_game"</span>,
         <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"mLry9*BQWioO7y*IBLpC+I3("</span>,
-        <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">1647943788</span>,
-        <span class="hljs-attr">"token"</span>:<span class="hljs-string">e460fb7304009e892b4830e3e848544c</span>,
-        <span class="hljs-attr">"sort"</span>: <span class="hljs-string">"desc"</span>,
-        <span class="hljs-attr">"user_key"</span>: <span class="hljs-string">20694395-8da5-443a-a98d-20083f7592ec</span>,
+        <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">"1647943788"</span>,
+        <span class="hljs-attr">"token"</span>:<span class="hljs-string">"e460fb7304009e892b4830e3e848544c"</span>,
         <span class="hljs-attr">"limit"</span>:<span class="hljs-string">100</span>,
         <span class="hljs-attr">"keyword"</span>: <span class="hljs-string">"korn"</span>,
         <span class="hljs-attr">"page"</span>: <span class="hljs-string">1</span>,
-        <span class="hljs-attr">"status"</span>: <span class="hljs-string">ac001</span>,
-        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">50</span>,
+        <span class="hljs-attr">"limit"</span>:<span class="hljs-string">5</span>,
      
 }
 </code></pre>
