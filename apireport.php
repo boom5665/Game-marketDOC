@@ -1717,7 +1717,7 @@
                                                                 <td class="bRight">unix_timestamp</td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="bRight">Sort</td>
+                                                                <td class="bRight">sort</td>
                                                                 <td class="bRight">String</td>
                                                                 <td class="bRight">asc|desc</td>
                                                             </tr>
