@@ -1685,17 +1685,17 @@
                                                             <tr>
                                                                 <td class="bRight">keyword</td>
                                                                 <td class="bRight">String</td>
-                                                                <td class="bRight">Keyword</td>
+                                                                <td class="bRight">keyword</td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="bRight">page</td>
                                                                 <td class="bRight">Integer</td>
-                                                                <td class="bRight">Page</td>
+                                                                <td class="bRight">page</td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="bRight">status</td>
                                                                 <td class="bRight">String</td>
-                                                                <td class="bRight">Item
+                                                                <td class="bRight">item
                                                                     <div style="color:red;">* status "in": item in stores</div>
                                                                     <div style="color:red;">* status "out": item sale </div>
                                                                     <div style="color:red;">* status " ": "in" and "out"</div>
@@ -1704,17 +1704,17 @@
                                                             <tr>
                                                                 <td class="bRight">limit</td>
                                                                 <td class="bRight">Integer</td>
-                                                                <td class="bRight">Limit</td>
+                                                                <td class="bRight">limit</td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="bRight">Partner</td>
+                                                                <td class="bRight">partner</td>
                                                                 <td class="bRight">String</td>
                                                                 <td class="bRight">partner user</td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="bRight">Timestamp</td>
+                                                                <td class="bRight">timestamp</td>
                                                                 <td class="bRight">String</td>
-                                                                <td class="bRight">Unix_timestamp</td>
+                                                                <td class="bRight">unix_timestamp</td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="bRight">Sort</td>
@@ -1729,7 +1729,7 @@
                                                             <tr>
                                                                 <td class="bRight">token</td>
                                                                 <td class="bRight">String</td>
-                                                                <td class="bRight">Token </td>
+                                                                <td class="bRight">token </td>
                                                             </tr>
 
                                                         </tbody>
@@ -2180,7 +2180,7 @@
                                                                     <tr>
                                                                         <td class="bRight">page</td>
                                                                         <td class="bRight">Integer</td>
-                                                                        <td class="bRight">Page</td>
+                                                                        <td class="bRight">page</td>
                                                                     </tr>
 
                                                                     <tr>
@@ -2196,7 +2196,7 @@
                                                                     <tr>
                                                                         <td class="bRight">Timestamp</td>
                                                                         <td class="bRight">String</td>
-                                                                        <td class="bRight">Unix_timestamp</td>
+                                                                        <td class="bRight">unix_timestamp</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="bRight">Sort</td>
