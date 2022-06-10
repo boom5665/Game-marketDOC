@@ -197,10 +197,207 @@
 
                     </div>
                 </div>
-            
+                <div class="pb-5"></div>
+                   <div class="col-12" id="tabEight" style="margin-left: 10px;">
+                       <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.8
+                       Get Member token</b></lable>
+                   </div>
+                   <div class="pb-3"></div>
+                   <div class="btn-toolbar mb-3" role="toolbar">
+                       <div class="divBox">
+                           <div class="col-12">
+                               <label class="txtHead">Method : </label>
+                               <label>Post</label>
+                           </div>
+                           <div class="col-12">
+                               <label class="txtHead">
+                                   Url :
+                               </label>
+                               <label>
+
+                                   https://test-api.gamemarket.shop/api/v1/user/member-get-token
+                               </label>
+                           </div>
+                           <div class="col-12">
+                               <label class="txtHead">
+                                   headers :
+                               </label>
+                               <label>
+                                   content-type application/json
+                               </label>
+                           </div>
+                       </div>
+                       <div class="form-group col-12">
+                           <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                               เพิ่ม Item ให้ User ใน Gamemarket</label>
+                       </div>
+                      
+                       <div class="form-group col-12 ex">
+                           <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
+                           </lable>
+                       </div>
+                       <div class="form-group col-1"></div>
+                       <div class="form-group col-9">
+                           <div class="table-wrapper">
+                               <table class="table table-borderless table-striped" id="DataTable351">
+                                   <thead class="rgba-green-slight">
+                                       <tr>
+                                           <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                               Parameter</th>
+                                           <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                           </th>
+                                           <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                           </th>
+                                       </tr>
+                                   </thead>
+                                   <tbody>
+                                       <tr>
+                                           <td class="bRight">access_key</td>
+                                           <td class="bRight">String</td>
+                                           <td class="bRight">Access key form game</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">username</td>
+                                           <td class="bRight">String</td>
+                                           <td class="bRight">Name Accout User</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight" style="font-weight: 900;">token</td>
+                                           <td class="bRight">String</td>
+                                           <td class="bRight">genarate token format md5 </td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">timestamp</td>
+                                           <td class="bRight">String</td>
+                                           <td class="bRight">Unix Timestamp</td>
+                                       </tr>
+                                    
+                                   </tbody>
+                               </table>
+                           </div>
+                       </div>
+                       <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                               ตัวอย่าง Generate Token</label>
+                           <div class="col-12">
+                               <img src="./API_files/md8.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                           </div>
+                       <div class="koh-tab-content col-12">
+                           <div class="koh-tab-content-body">
+                               <div class="koh-faq form-group">
+                                   <div class="koh-faq-question form-group ex">
+                                       <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                   </div>
+                                   <div class="koh-faq-answer col-9">
+                                       <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+   
+       <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"9M8jKHT9g@ba()5+-!$G52"</span>,
+       <span class="hljs-attr">"username"</span>: <span class="hljs-string">"korn"</span>,
+       <span class="hljs-attr">"token"</span>: <span class="hljs-string">"f6a4f7b64ae767bdba25742dc2c79ab4"</span>,
+       <span class="hljs-attr">"timestamp"</span>: <span class="hljs-string">"1654850995"</span>,
+   
+}</code></pre>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="form-group col-12 ex">
+                           <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
+                       </div>
+                       <div class="form-group col-1"></div>
+                       <div class="form-group col-9">
+                           <div class="table-wrapper">
+                               <table class="table table-borderless table-striped" id="DataTable2">
+                                   <thead class="rgba-green-slight">
+                                       <tr>
+                                           <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                               Parameter</th>
+                                           <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                           </th>
+                                           <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                       </tr>
+                                   </thead>
+                                   <tbody>
+                                       <tr>
+                                           <td class="bRight">code</td>
+                                           <td class="bRight">Number</td>
+                                           <td class="bRight">Result Code Reference.</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">msg</td>
+                                           <td class="bRight">String</td>
+                                           <td class="bRight">Information message.</td>
+                                       </tr>
+                                   </tbody>
+                               </table>
+                           </div>
+                       </div>
+                       <div class="form-group col-12 ex">
+                           <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
+                       </div>
+                       <div class="form-group col-1"></div>
+                       <div class="form-group col-9">
+                           <div class="table-wrapper">
+                               <table class="table table-borderless table-striped" id="DataTable2">
+                                   <thead class="rgba-green-slight">
+                                       <tr>
+                                           <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                               Parameter</th>
+                                           <th set-lan="html:Description" class="txtCenter">Description</th>
+                                       </tr>
+                                   </thead>
+                                   <tbody>
+                                       <tr>
+                                           <td class="bRight">0</td>
+                                           <td>Success</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">1165</td>
+                                           <td>timestamp_time_out</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">1443</td>
+                                           <td>partner not found</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">1184</td>
+                                           <td>invalid login</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">1203</td>
+                                           <td>invalid create user</td>
+                                       </tr>
+                                       <tr>
+                                           <td class="bRight">1438</td>
+                                           <td>Invalid user permission</td>
+                                       </tr>
+                                       
+                                   </tbody>
+                               </table>
+                           </div>
+                       </div>
+                       <div class="koh-tab-content col-12">
+                           <div class="koh-tab-content-body">
+                               <div class="koh-faq form-group">
+                                   <div class="koh-faq-question form-group ex">
+                                       <lable class="Point"><b style="color: #0C3175 !important;">Example Service
+                                               Respond Code Member token </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                   </div>
+                                   <div class="koh-faq-answer col-9">
+                                       <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
+   <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+   <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>
+   <span class="hljs-attr">"token"</span>: <span class="hljs-number">"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTQ4NjE4NTEsImlkIjo2LCJyb2xlIjoibWVtYmVyIn0.RdZWkEzhsR3zxQwMGZLAbsAzfDlh3huDXmX9h9enSl0"</span>
+}</code></pre>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+     
                    
                    <div class="pb-5"></div>
-                   <div class="col-12" id="tabEight" style="margin-left: 10px;">
+                   <div class="col-12" id="tabNine" style="margin-left: 10px;">
                        <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.8
                                dropItem</b></lable>
                    </div>
