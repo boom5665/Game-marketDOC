@@ -413,7 +413,7 @@
                                     Url :
                                 </label>
                                 <label>
-                                    https://test-api.gamemarket.shop/api/v1/report/games
+                                    https://test-api.gamemarket.shop/api/v1/user/trademyitems
                                 </label>
                             </div>
                         </div>
@@ -484,8 +484,8 @@
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
     
-        <span class="hljs-attr">"track_id"</span>[
-            <span class="hljs-attr">"track_5"</span>: <span class="hljs-string">"track_10"</span>,
+        <span class="hljs-attr">"track_id"</span>:[
+            <span class="hljs-attr">"track_5"</span>,<span class="hljs-string">"track_10"</span>,
             ]
 }</code></pre>
                                     </div>
@@ -582,7 +582,7 @@
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
     <span class="hljs-attr">"point"</span>: <span class="hljs-number">746</span>
 }</code></pre>
                                     </div>
