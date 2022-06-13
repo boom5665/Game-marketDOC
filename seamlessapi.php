@@ -385,7 +385,7 @@
                                 <div class="koh-faq-answer col-9">
                                     <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-   <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>
+   <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Success"</span>
    <span class="hljs-attr">"token"</span>: <span class="hljs-number">"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTQ4NjE4NTEsImlkIjo2LCJyb2xlIjoibWVtYmVyIn0.RdZWkEzhsR3zxQwMGZLAbsAzfDlh3huDXmX9h9enSl0"</span>
 }</code></pre>
                                 </div>
@@ -582,7 +582,7 @@
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"Success"</span>,
     <span class="hljs-attr">"point"</span>: <span class="hljs-number">746</span>
 }</code></pre>
                                     </div>
@@ -798,7 +798,7 @@
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-   <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
+   <span class="hljs-attr">"msg"</span>: <span class="hljs-number">Success</span>
 }</code></pre>
                                     </div>
                                 </div>
