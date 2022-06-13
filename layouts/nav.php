@@ -86,15 +86,19 @@
                                 </li> -->
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabSix">
                                         <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.7
-                                            Get User Key</span></a>
+                                        Get User Key</span></a>
                                 </li>
                                 <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabEight">
                                         <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.8
                                         Get Member token</span></a>
                                 </li>
-                                <li id="manu452"><a class="waves-effect submenu" href="seamlessapi.php#tabNine">
+                                <li id="manu451"><a class="waves-effect submenu" href="seamlessapi.php#tabNine">
                                         <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.9
-                                            Dropitem</span></a>
+                                        User Trade Item</span></a>
+                                </li>
+                                <li id="manu452"><a class="waves-effect submenu" href="seamlessapi.php#tabTen">
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.10
+                                        Dropitem</span></a>
                                 </li>
 
                             </ul>
