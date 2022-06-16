@@ -508,7 +508,7 @@
                                     <div class="koh-faq-answer col-9">
                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
     <span class="hljs-attr">"result": [
     {
         <span class="hljs-attr">"username"</span>: <span class="hljs-number">"partner1"</span>,
@@ -709,7 +709,7 @@
                                         <div class="koh-faq-answer col-9">
                                             <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
     <span class="hljs-attr">"result": [
     {
       <span class="hljs-attr">"game_id"</span>: <span class="hljs-number">""</span>,
@@ -737,7 +737,7 @@
                                         <div class="koh-faq-answer col-9">
                                             <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
     <span class="hljs-attr">"result": [
     {
       <span class="hljs-attr">"game_id"</span>:  <span class="hljs-number">""</span>,
@@ -938,8 +938,8 @@
                                             <div class="koh-faq-answer col-9">
                                                 <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
     <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">success</span>,
-    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">success</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">"success"</span>,
     <span class="hljs-attr">"sumWinLoseReportItem"</span>: {
         <span class="hljs-attr">"num_row"</span>: <span class="hljs-attr">8</span>,
         <span class="hljs-attr">"sum_sale_amount"</span>: <span class="hljs-attr">10000</span>,
@@ -1246,7 +1246,7 @@
       <span class="hljs-attr">"hasprevPage"</span>: <span class="hljs-number">false</span>,
       <span class="hljs-attr">"hasnextPage"</span>: <span class="hljs-number">false</span>,
       <span class="hljs-attr">"prevPage": <span class="hljs-number">null</span>,
-      <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>
+      <span class="hljs-attr">"nextPage"</span>: <span class="hljs-number">null</span>,
       <span class="hljs-attr">"list"</span>: [
             {
                  <span class="hljs-attr">"game_id"</span>: <span class="hljs-number">1,
@@ -1391,7 +1391,7 @@
                                                             <td class="bRight">Item
                                                                 <div style="color:red;">* status "in": item in stores</div>
                                                                 <div style="color:red;">* status "out": item sale </div>
-                                                                <div style="color:red;">* status " ": "in" and "out"</div>
+                                                                <div style="color:red;">* status " "</span>: <span class="hljs-number">"in" and "out"</div>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -1504,108 +1504,45 @@
                                                     </div>
                                                     <div class="koh-faq-answer col-9">
                                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>{
-        <span class="hljs-attr">"itemList"</span>: [
+    <span class="hljs-attr">"code"</span>: 0,
+    <span class="hljs-attr">"itemList"</span>: [
         {
-            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "5c0e2acb-aae3-47ae-83a3-f68689622b7a"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">7</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>:<span class="hljs-number"> 4</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"111"</span>,
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>:<span class="hljs-number"> "2021-11-11T13:13:28.05604+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-11T14:06:39.514968+07:00"</span>,
-            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Sword"</span>
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 9</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         },
         {
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"65798b47-b4c0-46f8-8d00-bae09d48582a"</span>,
-            <span class="hljs-attr">"id"</span>:<span class="hljs-number"> 8</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number">4</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"11116"</span>
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-11T13:13:45.212803+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>:<span class="hljs-number"> "2021-11-11T14:06:39.550411+07:00"</span>,
-            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Sword"</span>
-        },
-        {
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"0c00582e-1720-408c-a002-b8e1a505eada"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">9</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number">4</span>,
-            <span class="hljs-attr">"item_id"</span>:<span class="hljs-number"> 6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"11511"</span>,
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-11T13:13:57.678421+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-11T14:06:39.584791+07:00"</span>,
-            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Sword"</span>
-        },
-        {
-            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "bbef94a9-025e-45fd-9b31-9d4e96aebabc"</span>,
-            <span class="hljs-attr">"id"</span>:<span class="hljs-number"> 10</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number">4</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"114111"</span>,
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-11T13:14:33.139377+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-11T14:32:49.779241+07:00"</span>,
-            <span class="hljs-attr">"username"</span>:<span class="hljs-number"> "korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Sword"</span>
-        },
-        {
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"57ccbedf-5a10-4cb8-80fd-2f83dcb46311"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">11</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number">4</span>,
-            <span class="hljs-attr">"item_id"</span>:<span class="hljs-number"> 6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"1111131"</span>,
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-11T13:14:53.366375+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-29T21:52:36.164787+07:00"</span>,
-            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Sword"</span>
-        },
-        {
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"daaa023d-a391-4680-bd4e-88dc2fca8fe7"</span>,
-            <span class="hljs-attr">"id"</span>:<span class="hljs-number"> 12</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>:<span class="hljs-number"> 4</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">6</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"11111111"</span>,
-            <span class="hljs-attr">"status"</span>:<span class="hljs-number"> "out"</span>,
-            <span class="hljs-attr">"created_at"</span>:<span class="hljs-number"> "2021-11-11T13:15:03.834224+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-29T21:55:07.140995+07:00"</span>,
-            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Armor"</span>
-        },
-        {
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e7184db0-f9b2-4f05-bdb8-db339342c51d"</span>,
-            <span class="hljs-attr">"id"</span>:<span class="hljs-number"> 13</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>:<span class="hljs-number"> 4</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">9</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"1111122"</span>,
-            <span class="hljs-attr">"status"</span>:<span class="hljs-number">"out"</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-11T13:15:16.098345+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-30T15:02:55.995561+07:00"</span>,
-            <span class="hljs-attr">"username"</span>:<span class="hljs-number">"korn"</span>,
-            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"dota2"</span>,
-            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"Hamer"</span>
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         }
     ],
-    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">1</span>,
-    <span class="hljs-attr">"memberPoint": {
-        <span class="hljs-attr">"username"</span>: <span class="hljs-number">"korn"</span>,
-        <span class="hljs-attr">"sale"</span>: <span class="hljs-number">29000</span>,
-        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">2300</span>,
-        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number">26700</span>,
-        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number">1840</span>
+    <span class="hljs-attr">"memberPoint"</span>: {
+        <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+        <span class="hljs-attr">"sale"</span>: <span class="hljs-number"> 29000</span>,
+        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number"> 2300</span>,
+        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number"> 26700</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number"> 1840</span>
     },
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number"> 1</span>
 }</code></pre>
                                                     </div>
                                                 </div>
@@ -1698,7 +1635,7 @@
                                                                 <td class="bRight">item
                                                                     <div style="color:red;">* status "in": item in stores</div>
                                                                     <div style="color:red;">* status "out": item sale </div>
-                                                                    <div style="color:red;">* status " ": "in" and "out"</div>
+                                                                    <div style="color:red;">* status " "</span>: <span class="hljs-number">"in" and "out"</div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -1842,46 +1779,48 @@
                                                         </div>
                                                         <div class="koh-faq-answer col-9">
                                                             <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>{
-        <span class="hljs-attr">"itemList"</span>: [
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number"> 0</span>,
+    <span class="hljs-attr">"itemList"</span>: <span class="hljs-number"> [
         {
-            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">7</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>:<span class="hljs-number"> 9</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">7</span>,
-            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
-            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
-            <span class="hljs-attr">"created_at"</span>:<span class="hljs-number"> "2022-03-21T09:49:29.984965+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number"> "e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 9</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number"> "d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number"> "in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number"> "2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number"> "2022-03-21T09:49:29.984965+07:00"</span>,
             <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
             <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
             <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
             <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         },
         {
-            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">8</span>,
-            <span class="hljs-attr">"game_member_acc_id"</span>:<span class="hljs-number"> 8</span>,
-            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number">8</span>,
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 8</span>,
             <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
             <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
-            <span class="hljs-attr">"created_at"</span>:<span class="hljs-number"> "2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
             <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
             <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
             <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
             <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
             <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
-        },
-
-    <span class="hljs-attr">"memberPoint": {
+        }
+    ],
+    <span class="hljs-attr">"memberPoint"</span>: {
         <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
-        <span class="hljs-attr">"sale"</span>: <span class="hljs-number">29000</span>,
-        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">2300</span>,
-        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number">26700</span>,
-        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number">1840</span>
+        <span class="hljs-attr">"sale"</span>: <span class="hljs-number"> 29000</span>,
+        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number"> 2300</span>,
+        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number"> 26700</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number"> 1840</span>
     },
-    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">1</span>,
-}</code></pre>
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number"> 1 </span>
+}
+
+</code></pre>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2074,36 +2013,49 @@
                                                                         Respond Code </b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
                                                             </div>
                                                             <div class="koh-faq-answer col-9">
-                                                                <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">Success</span>,
-    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">0</span>,{
-        <span class="hljs-attr">"result"</span>: [
+                                                                <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">
+                                                                {
+    <span class="hljs-attr">"code"</span>: 0,
+    <span class="hljs-attr">"itemList"</span>: [
         {
-            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "3c0301d7-7695-48c1-8fc9-0983bb2f6b54"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">3</span>,
-            <span class="hljs-attr">"phone_number"</span>:<span class="hljs-number"> ""</span>,
-            <span class="hljs-attr">"first_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"last_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"user_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"password"</span>:<span class="hljs-number"> ""</span>,
-            <span class="hljs-attr">"access_key"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"secret_key"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"role"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"game_ctrl"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"bank_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"account_number"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-03T17:36:06.936798+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-03T17:36:06.936798+07:00"</span>,
-            <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"partner_pt"</span>: <span class="hljs-number">"0"</span>,
-            <span class="hljs-attr">"Game"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"GameMemberAcc"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"Transaction"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"point"</span>: <span class="hljs-number">"0"</span>
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 9</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         },
-    ]
-}</code></pre>
+        {
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
+        }
+    ],
+    <span class="hljs-attr">"memberPoint"</span>: {
+        <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+        <span class="hljs-attr">"sale"</span>: <span class="hljs-number"> 29000</span>,
+        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number"> 2300</span>,
+        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number"> 26700</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number"> 1840</span>
+    },
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number"> 1</span>
+}
+</code></pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2320,34 +2272,45 @@
                                                                 </div>
                                                                 <div class="koh-faq-answer col-9">
                                                                     <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">Success</span>,
-    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number">0</span>,{
-        <span class="hljs-attr">"result"</span>: [
+    <span class="hljs-attr">"code"</span>: 0,
+    <span class="hljs-attr">"itemList"</span>: [
         {
-            <span class="hljs-attr">"unique_id"</span>:<span class="hljs-number"> "3c0301d7-7695-48c1-8fc9-0983bb2f6b54"</span>,
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number">3</span>,
-            <span class="hljs-attr">"phone_number"</span>:<span class="hljs-number"> ""</span>,
-            <span class="hljs-attr">"first_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"last_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"user_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"password"</span>:<span class="hljs-number"> ""</span>,
-            <span class="hljs-attr">"access_key"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"secret_key"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"role"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"game_ctrl"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"bank_name"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"account_number"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2021-11-03T17:36:06.936798+07:00"</span>,
-            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2021-11-03T17:36:06.936798+07:00"</span>,
-            <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number">""</span>,
-            <span class="hljs-attr">"partner_pt"</span>: <span class="hljs-number">"0"</span>,
-            <span class="hljs-attr">"Game"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"GameMemberAcc"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"Transaction"</span>: <span class="hljs-number">"null"</span>,
-            <span class="hljs-attr">"point"</span>: <span class="hljs-number">"0"</span>
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 9</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 7</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
         },
-    ]
+        {
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"e5f897cb-707e-4f60-a0c4-d41ae0a14c4c"</span>,
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"game_member_acc_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"item_id"</span>: <span class="hljs-number"> 8</span>,
+            <span class="hljs-attr">"track_id"</span>: <span class="hljs-number">"d8acef50-d8d0-41b8-b6f9-b5994795d67f"</span>,
+            <span class="hljs-attr">"status"</span>: <span class="hljs-number">"in"</span>,
+            <span class="hljs-attr">"created_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"updated_at"</span>: <span class="hljs-number">"2022-03-21T09:49:29.984965+07:00"</span>,
+            <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+            <span class="hljs-attr">"game_name"</span>: <span class="hljs-number">"PGSLOT"</span>,
+            <span class="hljs-attr">"item_name"</span>: <span class="hljs-number">"wallace dawn"</span>,
+            <span class="hljs-attr">"item_key"</span>: <span class="hljs-number">"8bfd6039-1afa-4501-822d-1a7285f81155"</span>
+        }
+    ],
+    <span class="hljs-attr">"memberPoint"</span>: {
+        <span class="hljs-attr">"username"</span>: <span class="hljs-number">"ac001"</span>,
+        <span class="hljs-attr">"sale"</span>: <span class="hljs-number"> 29000</span>,
+        <span class="hljs-attr">"withdraw"</span>: <span class="hljs-number"> 2300</span>,
+        <span class="hljs-attr">"remaining"</span>: <span class="hljs-number"> 26700</span>,
+        <span class="hljs-attr">"receive_amount"</span>: <span class="hljs-number"> 1840</span>
+    },
+    <span class="hljs-attr">"page_total"</span>: <span class="hljs-number"> 1</span>
 }</code></pre>
                                                                 </div>
                                                             </div>
