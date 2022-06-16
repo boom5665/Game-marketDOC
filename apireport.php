@@ -2014,7 +2014,7 @@
                                                             </div>
                                                             <div class="koh-faq-answer col-9">
                                                                 <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">
-                                                                {
+{
     <span class="hljs-attr">"code"</span>: 0,
     <span class="hljs-attr">"itemList"</span>: [
         {
