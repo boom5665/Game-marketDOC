@@ -2433,16 +2433,16 @@
                                                                     </div>
                                                                     <div class="koh-faq-answer col-9">
                                                                         <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number"> 0,
-    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success",
-    <span class="hljs-attr">"result": [
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number"> 0</span>,
+    <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>,
+    <span class="hljs-attr">"result"</span>: [
         {
-            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 2,
-            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"4e7a0ba4-f075-4a2b-8dee-f4d351f835ff",
-            <span class="hljs-attr">"name_en"</span>: <span class="hljs-number">"clash of clans",
-            <span class="hljs-attr">"name_th"</span>: <span class="hljs-number">"clash of clans",
-            <span class="hljs-attr">"short_name"</span>: <span class="hljs-number">"clash of clans",
-            <span class="hljs-attr">"status": <span class="hljs-number">"open"
+            <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 2</span>,
+            <span class="hljs-attr">"unique_id"</span>: <span class="hljs-number">"4e7a0ba4-f075-4a2b-8dee-f4d351f835ff"</span>,
+            <span class="hljs-attr">"name_en"</span>: <span class="hljs-number">"clash of clans"</span>,
+            <span class="hljs-attr">"name_th"</span>: <span class="hljs-number">"clash of clans"</span>,
+            <span class="hljs-attr">"short_name"</span>: <span class="hljs-number">"clash of clans"</span>,
+            <span class="hljs-attr">"status": <span class="hljs-number">"open"</span>
         },
         {
             <span class="hljs-attr">"id"</span>: <span class="hljs-number"> 1</span>,
@@ -2546,10 +2546,9 @@
                                                                         </div>
                                                                         <div class="koh-faq-answer col-9">
                                                                             <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
-
-        <span class="hljs-attr">"game_id"</span>: <span class="hljs-string">"1"</span>,
+        <span class="hljs-attr">"game_id"</span>: <span class="hljs-string">0</span>,
 }
-*ถ้าหากเกมไอดีเท่ากับ 0 จะเลือกเกมทั้งหมดแต่ถ้าเลือกไอดี 1 จะบอกไอเทมตามเกมนั้นๆ
+*ถ้าหากเกมไอดีเท่ากับ 0 จะเลือกเกมทั้งหมด
 </code></pre>
                                                                         </div>
                                                                     </div>
@@ -2585,7 +2584,7 @@
                                                                             <tr>
                                                                                 <td class="bRight">result</td>
                                                                                 <td class="bRight">Array</td>
-                                                                                <td class="bRight">Data Item list</td>
+                                                                                <td class="bRight">Data Game list</td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
