@@ -2557,7 +2557,7 @@
                                                                         </div>
                                                                         <div class="koh-faq-answer col-9">
                                                                             <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
-        <span class="hljs-attr">"game_id"</span>: <span class="hljs-string">0</span>,
+        <span class="hljs-attr">"game_id"</span>: <span class="hljs-string">2</span>,
 }
 *ถ้าหากเกมไอดีเท่ากับ 0 จะเลือกเกมทั้งหมด
 </code></pre>
