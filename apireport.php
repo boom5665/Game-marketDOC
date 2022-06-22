@@ -2463,7 +2463,7 @@
                                                     <div class="pb-5"></div>
                                                     <div style="background: #f2f3f4;  margin-top: 1%; border-radius: .375rem;">
                                                         <div class="col-12" id="tabEightone">
-                                                            <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.8.1
+                                                            <lable><b style="color: #0C3175 !important;" set-lan="text:4 UserPlaceBet">5.9
                                                                     Partner Item List</b></lable>
                                                         </div>
                                                         <div class="pb-3"></div>

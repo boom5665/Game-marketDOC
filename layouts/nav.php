@@ -152,7 +152,7 @@
                                         Partner Game List</span></a>
                                 </li>
                                 <li id="manu573"><a class="waves-effect submenu" href="apireport.php#tabEightone">
-                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.8.1
+                                        <span class="sv-normal" set-lan="text:5.1 Introduction callback  API">5.9
                                         Partner Item List</span></a>
                                 </li>
                             </ul>
