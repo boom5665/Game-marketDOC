@@ -2419,7 +2419,18 @@
                                                                             <td class="bRight">0</td>
                                                                             <td>success</td>
                                                                         </tr>
-
+                                                                        <tr>
+                                                                                <td class="bRight">1432</td>
+                                                                                <td>user not found</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="bRight">1640</td>
+                                                                                <td>invalid login admin role</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="bRight">1000</td>
+                                                                                <td>invalid data type</td>
+                                                                            </tr>
                                                                     </tbody>
                                                                 </table>
                                                             </div>
@@ -2621,10 +2632,7 @@
                                                                                 <td class="bRight">1000</td>
                                                                                 <td>invalid data type</td>
                                                                             </tr>
-                                                                            <tr>
-                                                                                <td class="bRight">1183</td>
-                                                                                <td>invalid user key</td>
-                                                                            </tr>
+                                                                    
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
