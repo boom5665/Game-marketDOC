@@ -50,7 +50,7 @@
                             </label>
                             <label>
                             https://test.gamemarket.shop/login/<span style="color:blue;">9M8jKHT9guac56h235!$G52</span>/<span style="color:#327939;">korn</span>/<span style="color:#CDB900;">1646210118</span>
-                            /<span style="color:red;">022ad66bd6fbc18571dba30310352407</span>/<span style="color:black;">test22071801,test22071802</span>
+                            /<span style="color:red;">022ad66bd6fbc18571dba30310352407</span>/<span style="color:black;">item2071801,item22071802</span>
                                
                             </label>
                         </div>
