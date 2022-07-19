@@ -930,17 +930,16 @@
         <span class="hljs-attr">"game_key"</span>: [
             <span class="hljs-string">"4e7a0ba4-f075-4a2b-8dee-f4d351f835ff"</span>,
             <span class="hljs-string">"4b1e4589-6970-41de-ada1-3c59af6f8d6d"</span>
-    ],
+        ],
         <span class="hljs-attr">"item_key"</span>: [
             <span class="hljs-string"> "d3a2ccfb-ec52-41f1-a9e3-094438fe5eaf"</span>,
             <span class="hljs-string">"21705380-c950-4b04-bbaa-805f0878604c"</span>
-    ],
+        ],
         <span class="hljs-attr">"track_id"</span>: [
             <span class="hljs-string">"test22071801"</span>,
             <span class="hljs-string">"test22071802"</span>
-    ],
+        ],
        <span class="hljs-attr">"token"</span>: <span class="hljs-string">"cc01a5ea55ffddf724a0e45cba1a1410"</span>,
-   
 }</code></pre>
                                     </div>
                                 </div>
