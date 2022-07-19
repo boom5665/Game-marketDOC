@@ -100,7 +100,10 @@
                                         <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.10
                                         Dropitem</span></a>
                                 </li>
-
+                                <li id="manu452"><a class="waves-effect submenu" href="seamlessapi.php#tabTenMulti">
+                                        <span class="sv-normal" set-lan="text:3.6 GetUserBalance">4.11
+                                        Dropitem Multi</span></a>
+                                </li>
                             </ul>
                         </div>
                     </li>

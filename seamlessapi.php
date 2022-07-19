@@ -825,6 +825,246 @@
                         </div>
                     </div>
                     <div class="pb-5"></div>
+                    <div class="col-12" id="tabTenMulti" style="margin-left: 10px;">
+                        <lable><b style="color: #0C3175 !important;" set-lan="text:4.5.1 GetUserBalance">4.11
+                                dropItem Multi</b></lable>
+                    </div>
+                    <div class="pb-3"></div>
+                    <div class="btn-toolbar mb-3" role="toolbar">
+                        <div class="divBox">
+                            <div class="col-12">
+                                <label class="txtHead">Method : </label>
+                                <label>Post</label>
+                            </div>
+                            <div class="col-12">
+                                <label class="txtHead">
+                                    Url :
+                                </label>
+                                <label>
+                                    https://test-api.gamemarket.shop/api/v1/gamestore/dropitems
+                                </label>
+                            </div>
+                            <div class="col-12">
+                                <label class="txtHead">
+                                    headers :
+                                </label>
+                                <label>
+                                    content-type application/json
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col-12">
+                            <label set-lan="html:When a player">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                เพิ่ม Item ให้ User ใน Gamemarket</label>
+                        </div>
+
+                        <div class="form-group col-12 ex">
+                            <lable><b style="color: #0C3175 !important;" set-lan="text:Request Body">Request Body</b>
+                            </lable>
+                        </div>
+                        <div class="form-group col-1"></div>
+                        <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable351">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                Parameter</th>
+                                            <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                            </th>
+                                            <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">access_key</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Access key form game</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">username</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Name Accout User</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">game_key</td>
+                                            <td class="bRight">Array String</td>
+                                            <td class="bRight">game key form Gamemarket Document 4.5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">Item_key</td>
+                                            <td class="bRight">Array String</td>
+                                            <td class="bRight">Item key form Gamemarket Document 4.6</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">track_id</td>
+                                            <td class="bRight">Array String</td>
+                                            <td class="bRight">Unit Id Drop Item Generate Form Partner</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight" style="font-weight: 900;">token</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">genarate token format md5 </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            ตัวอย่าง Generate Token</label>
+                        <div class="col-12">
+                            <img src="./API_files/md2.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                        </div>
+                        <div class="koh-tab-content col-12">
+                            <div class="koh-tab-content-body">
+                                <div class="koh-faq form-group">
+                                    <div class="koh-faq-question form-group ex">
+                                        <lable class="Point"><b style="color: #0C3175 !important;" set-lan="text:Example Request Body">Example Request Body</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    </div>
+                                    <div class="koh-faq-answer col-9">
+                                        <pre><code id="351A" style="border-radius: 0.375rem;" class="hljs json">{
+   
+       <span class="hljs-attr">"access_key"</span>: <span class="hljs-string">"9M8jKHT9g@ba()5+-!$G52"</span>,
+       <span class="hljs-attr">"username"</span>: <span class="hljs-string">"korn"</span>,
+        <span class="hljs-attr">"game_key"</span>: [
+            <span class="hljs-string">"4e7a0ba4-f075-4a2b-8dee-f4d351f835ff"</span>,
+            <span class="hljs-string">"4b1e4589-6970-41de-ada1-3c59af6f8d6d"</span>
+    ],
+        <span class="hljs-attr">"item_key"</span>: [
+            <span class="hljs-string"> "d3a2ccfb-ec52-41f1-a9e3-094438fe5eaf"</span>,
+            <span class="hljs-string">"21705380-c950-4b04-bbaa-805f0878604c"</span>
+    ],
+        <span class="hljs-attr">"track_id"</span>: [
+            <span class="hljs-string">"test22071801"</span>,
+            <span class="hljs-string">"test22071802"</span>
+    ],
+       <span class="hljs-attr">"token"</span>: <span class="hljs-string">"cc01a5ea55ffddf724a0e45cba1a1410"</span>,
+   
+}</code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 ex">
+                            <lable><b style="color: #0C3175 !important;">Response Body</b></lable>
+                        </div>
+                        <div class="form-group col-1"></div>
+                        <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable2">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                Parameter</th>
+                                            <th style="width: 15%;" set-lan="html:Type" class="bRight txtCenter">Type
+                                            </th>
+                                            <th style="width: 40%;" set-lan="html:Description" class="bRight txtCenter">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">code</td>
+                                            <td class="bRight">Number</td>
+                                            <td class="bRight">Result Code Reference.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">msg</td>
+                                            <td class="bRight">String</td>
+                                            <td class="bRight">Information message.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 ex">
+                            <lable><b style="color: #0C3175 !important;">Service Response Code</b></lable>
+                        </div>
+                        <div class="form-group col-1"></div>
+                        <div class="form-group col-9">
+                            <div class="table-wrapper">
+                                <table class="table table-borderless table-striped" id="DataTable2">
+                                    <thead class="rgba-green-slight">
+                                        <tr>
+                                            <th style="width: 20%;" set-lan="html:Parameter" class="bRight txtCenter">
+                                                Parameter</th>
+                                            <th set-lan="html:Description" class="txtCenter">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bRight">0</td>
+                                            <td>Success</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1000</td>
+                                            <td>invalid data type</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1409</td>
+                                            <td>key not match</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1155</td>
+                                            <td>Item not found</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1602</td>
+                                            <td>no game account</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1604</td>
+                                            <td>track_id already exist</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1620</td>
+                                            <td>can not add Item</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bRight">1651</td>
+                                            <td>invalid game key</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="koh-tab-content col-12">
+                            <div class="koh-tab-content-body">
+                                <div class="koh-faq form-group">
+                                    <div class="koh-faq-question form-group ex">
+                                        <lable class="Point"><b style="color: #0C3175 !important;">Example Service
+                                                Respond Code DropItem Success</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    </div>
+                                    <div class="koh-faq-answer col-9">
+                                        <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
+   <span class="hljs-attr">"code"</span>: <span class="hljs-number">0</span>,
+   <span class="hljs-attr">"msg"</span>: <span class="hljs-number">"success"</span>
+}</code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="koh-tab-content col-12">
+                            <div class="koh-tab-content-body">
+                                <div class="koh-faq form-group">
+                                    <div class="koh-faq-question form-group ex">
+                                        <lable class="Point"><b style="color: #0C3175 !important;">Example Service
+                                                Respond Code DropItem Error</b><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 2%; font-size: 1rem;"></i></lable>
+                                    </div>
+                                    <div class="koh-faq-answer col-9">
+                                        <pre><code id="351B" style="border-radius: 0.375rem;" class="hljs json">{
+   <span class="hljs-attr">"code"</span>: <span class="hljs-number">1604</span>,
+   <span class="hljs-attr">"msg"</span>: {
+       <span class="hljs-attr">"en"</span>: <span class="hljs-number">track_id already exist</span>,
+       <span class="hljs-attr">"th"</span>: <span class="hljs-number">track_id already exist</span>
+   }
+}</code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pb-5"></div>
                     <div class="btn-toolbar mb-12">
                         <div class="col-md-6">
                             <button type="button" class="btn btn-info waves-effect waves-light" onclick="location.href='addItem.php'">
