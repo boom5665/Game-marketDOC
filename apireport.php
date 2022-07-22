@@ -1674,6 +1674,15 @@
                                                 </div>
                                             </div>
 
+                                            <div class="form-group col-12">
+                                                <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    รูปแบบการดึง Token</label>
+                                                <div class="col-12">
+                                                    <img src="./API_files/md5partner.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-1"></div>
+
                                             <div class="koh-tab-content col-12">
                                                 <div class="koh-tab-content-body">
                                                     <div class="koh-faq form-group">
@@ -2170,6 +2179,15 @@
                                                         </div>
                                                     </div>
 
+                                                    <div class="form-group col-12">
+                                                        <label set-lan="html:When a player places">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            รูปแบบการดึง Token</label>
+                                                        <div class="col-12">
+                                                            <img src="./API_files/md5partner.png" style="width: 90%; margin-left: 10%; border: 1px solid #ced4da;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-1"></div>
+
                                                     <div class="koh-tab-content col-12">
                                                         <div class="koh-tab-content-body">
                                                             <div class="koh-faq form-group">
@@ -2420,17 +2438,17 @@
                                                                             <td>success</td>
                                                                         </tr>
                                                                         <tr>
-                                                                                <td class="bRight">1432</td>
-                                                                                <td>user not found</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="bRight">1640</td>
-                                                                                <td>invalid login admin role</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="bRight">1000</td>
-                                                                                <td>invalid data type</td>
-                                                                            </tr>
+                                                                            <td class="bRight">1432</td>
+                                                                            <td>user not found</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="bRight">1640</td>
+                                                                            <td>invalid login admin role</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="bRight">1000</td>
+                                                                            <td>invalid data type</td>
+                                                                        </tr>
                                                                     </tbody>
                                                                 </table>
                                                             </div>
@@ -2632,7 +2650,7 @@
                                                                                 <td class="bRight">1000</td>
                                                                                 <td>invalid data type</td>
                                                                             </tr>
-                                                                    
+
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
